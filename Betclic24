@@ -1,0 +1,1712 @@
+<html lang="en" class="">
+ <head> 
+  <meta http-equiv="origin-trial" content="A7vZI3v+Gz7JfuRolKNM4Aff6zaGuT7X0mf3wtoZTnKv6497cVMnhy03KDqX7kBz/q/iidW7srW31oQbBt4VhgoAAACUeyJvcmlnaW4iOiJodHRwczovL3d3dy5nb29nbGUuY29tOjQ0MyIsImZlYXR1cmUiOiJEaXNhYmxlVGhpcmRQYXJ0eVN0b3JhZ2VQYXJ0aXRpb25pbmczIiwiZXhwaXJ5IjoxNzU3OTgwODAwLCJpc1N1YmRvbWFpbiI6dHJ1ZSwiaXNUaGlyZFBhcnR5Ijp0cnVlfQ=="> 
+  <meta charset="utf-8"> 
+  <title>BetClic24 - Play, Stay, Win</title> 
+  <base href="/"> 
+  <meta name="og:title" content="BetClic24 - Play, Stay, Win"> 
+  <meta name="og:description" content="lblDefaultPageDescription"> 
+  <meta name="og:type" content="website"> 
+  <meta property="og:image" content="https://www.betclic24.com/assets/images/logo.png"> 
+  <link rel="icon" href="https://cdn.betclic24.com/BetClic24/images/logos/favicons/favicon.ico?v=1.11" type="image/x-icon"> 
+  <!--<meta name="viewport" content="width=1200">--> 
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no, maximum-scale=1, viewport-fit=cover"> 
+  <link rel="icon" href="https://cdn.betclic24.com/BetClic24/images/logos/favicons/favicons.png?v=1.11"> 
+  <link rel="apple-touch-icon" sizes="57x57" href="https://cdn.betclic24.com/BetClic24/images/logos/favicons/apple-touch-icon-57x57.png?v=1.11"> 
+  <link rel="apple-touch-icon" sizes="114x114" href="https://cdn.betclic24.com/BetClic24/images/logos/favicons/apple-touch-icon-114x114.png?v=1.11"> 
+  <link rel="apple-touch-icon" sizes="72x72" href="https://cdn.betclic24.com/BetClic24/images/logos/favicons/apple-touch-icon-72x72.png?v=1.11"> 
+  <link rel="apple-touch-icon" sizes="144x144" href="https://cdn.betclic24.com/BetClic24/images/logos/favicons/apple-touch-icon-144x144.png?v=1.11"> 
+  <link rel="apple-touch-icon" sizes="60x60" href="https://cdn.betclic24.com/BetClic24/images/logos/favicons/apple-touch-icon-60x60.png?v=1.11"> 
+  <link rel="apple-touch-icon" sizes="120x120" href="https://cdn.betclic24.com/BetClic24/images/logos/favicons/apple-touch-icon-120x120.png?v=1.11"> 
+  <link rel="apple-touch-icon" sizes="76x76" href="https://cdn.betclic24.com/BetClic24/images/logos/favicons/apple-touch-icon-76x76.png?v=1.11"> 
+  <link rel="apple-touch-icon" sizes="152x152" href="https://cdn.betclic24.com/BetClic24/images/logos/favicons/apple-touch-icon-152x152.png?v=1.11"> 
+  <link rel="apple-touch-icon" sizes="180x180" href="https://cdn.betclic24.com/BetClic24/images/logos/favicons/apple-touch-icon-180x180.png?v=1.11"> 
+  <link rel="canonical" id="canonical" href="https://www.betclic24.com"> 
+  <link rel="stylesheet" href="https://cdn.hocosoftware.com/images/casino_provider/provider-desktop.css?v=1.11"> 
+  <link rel="stylesheet" href="https://cdn.hocosoftware.com/Websites/css/common.variables.css?v=1.11"> 
+  <link rel="stylesheet" href="https://cdn.betclic24.com/BetClic24/css/variables.css?v=1.11"> 
+  <link rel="stylesheet" href="https://cdn.betclic24.com/BetClic24/css/styles.css?v=1.11"> 
+  <link rel="stylesheet" href="https://cdn.betclic24.com/BetClic24/css/custom.css?v=1.11"> 
+  <style>
+    router-outlet + .app-skeleton.idx {
+      display: block !important;
+    }
+
+    .app-skeleton.idx {
+      display: none !important;
+    }
+  </style> 
+  <link href="https://fonts.googleapis.com/css?family=Rajdhani:300,400,500,600,700&amp;display=swap" rel="stylesheet"> 
+  <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:300,400,500,600,700&amp;display=swap" rel="stylesheet"> 
+  <link href="https://cdn.ml.bcua.io/animation/widget/static/css/main.407b7527.css" rel="stylesheet"> 
+  <script>
+
+    if (window.localStorage.getItem("setTheme")) {
+      applyTheme();
+    }
+
+    function applyTheme() {
+      var theme = window.localStorage.getItem("setTheme");
+      var htmlElement = document.documentElement;
+      htmlElement.classList.add(theme);
+    }
+
+    let xx = 'https://cdn.hocosoftware.com/images/casino_provider'
+    if (xx.indexOf('{{') > -1) {
+      var link = document.createElement("link");
+
+      link.type = "text/css";
+      link.rel = "stylesheet";
+      link.href = 'assets/casino_provider/provider-desktop.css';
+
+      document.head.appendChild(link);
+    }
+    let active_feed = '97';
+    if (active_feed == '') {
+      active_feed = 97;
+    }
+    window["bid"] = active_feed;
+      window["API_Url"] = 'https://www.betclic24.com/'
+      if (window["API_Url"].indexOf('baseURL}}') > -1) {
+        window["API_Url"] = '';
+        //window["API_Url"] = 'https://localhost:7265/';
+    }
+     let alternate = document.querySelector('#alternate');
+    if (alternate && window.localStorage.getItem('language')) {
+      alternate.setAttribute('hreflang', window.localStorage.getItem('language'));
+    }
+    window["App_Version"] = '1.11';
+    if (window["App_Version"] == '' || window["App_Version"].includes('App_Version')) {
+      window["App_Version"] = new Date().getTime().toString();
+    }
+    window["SAID"] = '38';
+    window["CDN_Url"] = 'https://cdn.betclic24.com/BetClic24';
+    window["Common_CDN_Url"] = 'https://cdn.hocosoftware.com/Websites';
+  </script> 
+  <style>.p-toast{position:fixed;width:25rem}.p-toast-message{overflow:hidden}.p-toast-message-content{display:flex;align-items:flex-start}.p-toast-message-text{flex:1 1 auto}.p-toast-top-right{top:20px;right:20px}.p-toast-top-left{top:20px;left:20px}.p-toast-bottom-left{bottom:20px;left:20px}.p-toast-bottom-right{bottom:20px;right:20px}.p-toast-top-center{top:20px;left:50%;transform:translate(-50%)}.p-toast-bottom-center{bottom:20px;left:50%;transform:translate(-50%)}.p-toast-center{left:50%;top:50%;min-width:20vw;transform:translate(-50%,-50%)}.p-toast-icon-close{display:flex;align-items:center;justify-content:center;overflow:hidden;position:relative}.p-toast-icon-close.p-link{cursor:pointer}
+</style> 
+  <style>.p-dropdown{display:inline-flex;cursor:pointer;position:relative;-webkit-user-select:none;user-select:none}.p-dropdown-clear-icon{position:absolute;top:50%;margin-top:-.5rem}.p-dropdown-trigger{display:flex;align-items:center;justify-content:center;flex-shrink:0}.p-dropdown-label{display:block;white-space:nowrap;overflow:hidden;flex:1 1 auto;width:1%;text-overflow:ellipsis;cursor:pointer}.p-dropdown-label-empty{overflow:hidden;visibility:hidden}input.p-dropdown-label{cursor:default}.p-dropdown-items-wrapper{overflow:auto}.p-dropdown-item{cursor:pointer;font-weight:400;white-space:nowrap;position:relative;overflow:hidden}.p-dropdown-items{margin:0;padding:0;list-style-type:none}.p-dropdown-filter{width:100%}.p-dropdown-filter-container{position:relative}.p-dropdown-filter-icon{position:absolute;top:50%;margin-top:-.5rem}.p-fluid .p-dropdown{display:flex}.p-fluid .p-dropdown .p-dropdown-label{width:1%}
+</style> 
+  <style>.p-overlay{position:absolute;top:0;left:0}.p-overlay-modal{display:flex;align-items:center;justify-content:center;position:fixed;top:0;left:0;width:100%;height:100%}.p-overlay-content{transform-origin:inherit}.p-overlay-modal>.p-overlay-content{z-index:1;width:90%}.p-overlay-top{align-items:flex-start}.p-overlay-top-start{align-items:flex-start;justify-content:flex-start}.p-overlay-top-end{align-items:flex-start;justify-content:flex-end}.p-overlay-bottom{align-items:flex-end}.p-overlay-bottom-start{align-items:flex-end;justify-content:flex-start}.p-overlay-bottom-end{align-items:flex-end;justify-content:flex-end}.p-overlay-left{justify-content:flex-start}.p-overlay-left-start{justify-content:flex-start;align-items:flex-start}.p-overlay-left-end{justify-content:flex-start;align-items:flex-end}.p-overlay-right{justify-content:flex-end}.p-overlay-right-start{justify-content:flex-end;align-items:flex-start}.p-overlay-right-end{justify-content:flex-end;align-items:flex-end}
+</style> 
+  <style>.p-skeleton{position:relative;overflow:hidden}.p-skeleton:after{content:"";animation:p-skeleton-animation 1.2s infinite;height:100%;left:0;position:absolute;right:0;top:0;transform:translate(-100%);z-index:1}.p-skeleton.p-skeleton-circle{border-radius:50%}.p-skeleton-none:after{animation:none}@keyframes p-skeleton-animation{0%{transform:translate(-100%)}to{transform:translate(100%)}}
+</style> 
+  <style>.placeholder-wrapper{color:var(--alpha5)}.placeholder-wrapper i{font-weight:500;transform:rotate(45deg)}
+</style> 
+  <meta name="description" content="lblDefaultPageDescription"> 
+  <meta name="og:url" content="https://www.betclic24.com/#/account/deposit"> 
+ </head> 
+ <body class="notranslate"> 
+  <app-root class="ng-tns-c97-0" ng-version="14.3.0"> 
+   <app-header class="ng-tns-c97-0 ng-tns-c95-1"> 
+    <!----> 
+    <!----> 
+    <!----> 
+    <!----> 
+    <!----> 
+    <header class="ng-tns-c95-1"> 
+     <!----> 
+     <!----> 
+     <!----> 
+     <div class="header-wrapper d-flex align-items-center ng-tns-c95-1 ng-star-inserted"> 
+      <div class="bg ng-tns-c86-1 ng-tns-c95-1"></div> 
+      <div class="bg bg2 ng-tns-c86-1 ng-tns-c95-1"></div> 
+      <div class="bg bg3 ng-tns-c86-1 ng-tns-c95-1"></div> 
+      <div class="header-left ng-tns-c95-1"> 
+       <svg viewbox="0 0 100 100" width="80" class="header-hammenu ng-tns-c95-1"> 
+        <path d="m 70,33 h -40 c 0,0 -6,1.368796 -6,8.5 0,7.131204 6,8.5013 6,8.5013 l 20,-0.0013" class="line top ng-tns-c95-1"></path> 
+        <path d="m 70,50 h -40" class="line middle ng-tns-c95-1"></path> 
+        <path d="m 69.575405,67.073826 h -40 c -5.592752,0 -6.873604,-9.348582 1.371031,-9.348582 8.244634,0 19.053564,21.797129 19.053564,12.274756 l 0,-40" class="line bottom ng-tns-c95-1"></path> 
+       </svg> 
+      </div> 
+      <div class="brand-logo ng-tns-c95-1"> 
+       <a href="javascript://" class="ng-tns-c95-1"><span class="logo-img ng-tns-c95-1"></span></a> 
+      </div> 
+      <div class="header-right ng-tns-c95-1"> 
+       <ul class="ng-tns-c95-1"> 
+        <!----> 
+        <li class="ng-tns-c95-1 ng-star-inserted"><a href="#/account/deposit" routerlink="/account/deposit" routerlinkactive="active" class="ng-tns-c95-1 active"><i class="fa-plus-circle far ng-tns-c95-1"></i></a></li> 
+        <!----> 
+        <!----> 
+        <!----> 
+        <!----> 
+        <!----> 
+        <!----> 
+        <li class="ng-tns-c95-1 ng-star-inserted"><a class="notification ng-tns-c95-1"><i class="fas fa-bell ng-tns-c95-1"></i><span class="count ng-tns-c95-1" hidden>0</span></a></li> 
+        <!----> 
+        <!----> 
+        <!----> 
+        <!----> 
+        <!----> 
+        <li class="ng-tns-c95-1 ng-star-inserted"> 
+         <div routerlink="/account/dashboard" class="header-right ng-tns-c95-1" tabindex="0"> 
+          <i class="fas fa-user ng-tns-c95-1"></i> 
+         </div></li> 
+        <!----> 
+       </ul> 
+      </div> 
+     </div> 
+     <!----> 
+     <!----> 
+    </header> 
+    <div class="sidebar ng-tns-c95-1 ng-star-inserted"> 
+     <!----> 
+     <div class="header-balance-info ng-tns-c95-1 ng-star-inserted"> 
+      <div class="details-user-wrap ng-tns-c95-1"> 
+       <div class="sub-header-item welcome ng-tns-c95-1"> 
+        <div routerlinkactive="active" class="user-title ng-tns-c95-1" tabindex="0"> 
+         <div class="user-profile ng-tns-c95-1"> 
+          <span class="ng-tns-c95-1">B</span> 
+         </div> 
+         <div class="username-right ng-tns-c95-1"> 
+          <small class="align-middle ng-tns-c95-1">Ahm009</small> 
+         </div> 
+        </div> 
+        <div class="sub-header-item btns ng-tns-c95-1 ng-star-inserted"> 
+         <a href="#/account/deposit" routerlinkactive="active" routerlink="/account/deposit" class="btn btn-primary deposit ng-tns-c95-1 active"><i class="fa fa-upload ng-tns-c95-1"></i> Deposit </a> 
+        </div> 
+        <!----> 
+       </div> 
+       <div class="main-balance-wrap ng-tns-c95-1"> 
+        <div class="balance ng-tns-c95-1"> 
+         <div class="balnce-text ng-tns-c95-1"> 
+          <span class="ng-tns-c95-1">Real Balance</span> 
+          <div class="dropdown-data ng-tns-c95-1"> 
+           <small class="align-middle ng-tns-c95-1"><span class="current_bal ng-tns-c95-1">0.00</span><span class="Currency_Code ng-tns-c95-1">TND</span></small> 
+           <div class="icon-small icon-loading ng-tns-c95-1"> 
+            <i class="far fa-sync balanceloader ng-tns-c95-1"></i> 
+            <div class="bonus-main-balance ng-tns-c95-1 show-togglemenu"></div> 
+           </div> 
+           <div class="icon-small icon-chev ng-tns-c95-1 ng-star-inserted"> 
+            <i class="fa fa-angle-down dropdown-arrow ng-tns-c95-1"></i> 
+           </div> 
+           <!----> 
+          </div> 
+         </div> 
+        </div> 
+        <div class="drop-down-data ng-tns-c95-1 ng-trigger ng-trigger-slideInOut ng-star-inserted" style="overflow: hidden; height: 0px;"> 
+         <h2 class="ng-tns-c95-1">Balances</h2> 
+         <ul class="ng-tns-c95-1"> 
+          <!----> 
+          <!----> 
+          <li class="ng-tns-c95-1 ng-star-inserted" style=""><span class="content ng-tns-c95-1">Real Balance Wager</span><span class="dropdown-bal ng-tns-c95-1"> 0.00&nbsp; <span class="Currency_Code ng-tns-c95-1">TND</span></span></li> 
+          <!----> 
+         </ul> 
+         <!----> 
+        </div> 
+        <!----> 
+       </div> 
+       <!----> 
+      </div> 
+     </div> 
+     <!----> 
+     <div class="bet-providers ng-tns-c95-1 ng-star-inserted"> 
+      <a href="javascript://" class="btn ng-tns-c95-1 ng-star-inserted"> 
+       <!----> DG 
+       <!----> 
+       <!----> 
+       <div class="newsport-label ng-tns-c95-1 ng-star-inserted"> 
+        <span class="newLabel ng-tns-c95-1">New</span> 
+       </div> 
+       <!----></a> 
+      <a href="javascript://" class="btn ng-tns-c95-1 active ng-star-inserted"> BC 
+       <!----> 
+       <!----> 
+       <!----> 
+       <!----></a> 
+      <!----> 
+     </div> 
+     <!----> 
+     <div class="sidebar-navbar ng-tns-c95-1"> 
+      <ul class="nav ng-tns-c95-1"> 
+       <li class="ng-tns-c95-1 ng-star-inserted"> 
+        <!----><a class="ng-tns-c95-1 pre-sport-mnu ng-star-inserted" href="#/sport/pregame"><span class="ng-tns-c95-1"><i class="ng-tns-c95-1 cd-icon2 icon-Pre-Sports"></i></span><span class="align-middle ng-tns-c95-1"> Pre Sports 
+          <!----></span></a> 
+        <!----> 
+        <!----> 
+        <!----> 
+        <!----></li> 
+       <!----> 
+       <!----> 
+       <!----> 
+       <!----> 
+       <!----> 
+       <li class="ng-tns-c95-1 ng-star-inserted"> 
+        <!----><a class="ng-tns-c95-1 live-betting-mnu ng-star-inserted" href="#/sport/live"><span class="ng-tns-c95-1"><i class="ng-tns-c95-1 cd-icon2 icon-Live-Betting"></i></span><span class="align-middle ng-tns-c95-1"> Live Betting 
+          <!----></span></a> 
+        <!----> 
+        <!----> 
+        <!----> 
+        <!----></li> 
+       <!----> 
+       <!----> 
+       <!----> 
+       <!----> 
+       <!----> 
+       <li class="ng-tns-c95-1 ng-star-inserted"> 
+        <!----><a class="ng-tns-c95-1 slot-casino-mnu ng-star-inserted" href="#/game/casino?pg=0"><span class="ng-tns-c95-1"><i class="ng-tns-c95-1 cd-icon2 icon-Slot-Casino"></i></span><span class="align-middle ng-tns-c95-1"> Slot Casino 
+          <!----></span></a> 
+        <!----> 
+        <!----> 
+        <!----> 
+        <!----></li> 
+       <!----> 
+       <!----> 
+       <!----> 
+       <!----> 
+       <!----> 
+       <li class="ng-tns-c95-1 ng-star-inserted"> 
+        <!----><a class="ng-tns-c95-1 live-casino-mnu ng-star-inserted" href="#/game/casinolive"><span class="ng-tns-c95-1"><i class="ng-tns-c95-1 cd-icon2 icon-Live-Casino"></i></span><span class="align-middle ng-tns-c95-1"> Live Casino 
+          <!----></span></a> 
+        <!----> 
+        <!----> 
+        <!----> 
+        <!----></li> 
+       <!----> 
+       <!----> 
+       <!----> 
+       <!----> 
+       <!----> 
+       <li class="ng-tns-c95-1 ng-star-inserted"> 
+        <!----><a class="ng-tns-c95-1 virtual-casino-mnu ng-star-inserted" href="#/game/virtual"><span class="ng-tns-c95-1"><i class="ng-tns-c95-1 cd-icon2 icon-Virtual-Sports"></i></span><span class="align-middle ng-tns-c95-1"> Virtual Sports 
+          <!----></span></a> 
+        <!----> 
+        <!----> 
+        <!----> 
+        <!----></li> 
+       <!----> 
+       <!----> 
+       <!----> 
+       <!----> 
+       <!----> 
+       <li class="ng-tns-c95-1 ng-star-inserted"> 
+        <!----><a class="ng-tns-c95-1 fast-games-mnu ng-star-inserted" href="#/game/casino?pg=2&amp;fg=1&amp;t=1017"><span class="ng-tns-c95-1"><i class="ng-tns-c95-1 fa fa-star"></i></span><span class="align-middle ng-tns-c95-1"> Fast Games 
+          <!----></span></a> 
+        <!----> 
+        <!----> 
+        <!----> 
+        <!----></li> 
+       <!----> 
+       <!----> 
+       <!----> 
+       <!----> 
+       <!----> 
+       <li class="ng-tns-c95-1 ng-star-inserted"> 
+        <!----><a class="ng-tns-c95-1 crash-games-mnu ng-star-inserted"><span class="ng-tns-c95-1"><i class="ng-tns-c95-1 cd-icon2 icon-Crash-Games"></i></span><span class="align-middle ng-tns-c95-1"> Crash Games 
+          <!----></span></a> 
+        <!----> 
+        <!----> 
+        <!----> 
+        <!----></li> 
+       <!----> 
+       <!----> 
+       <!----> 
+       <!----> 
+       <!----> 
+       <!----> 
+       <!----> 
+       <!----> 
+       <!----> 
+       <!----> 
+       <!----> 
+       <!----> 
+       <!----> 
+       <!----> 
+       <!----> 
+       <!----> 
+       <!----> 
+       <!----> 
+       <!----> 
+       <!----> 
+       <!----> 
+      </ul> 
+     </div> 
+     <div class="livetv-wrapper ng-tns-c95-1"> 
+      <ul class="nav ng-tns-c95-1"> 
+       <!----> 
+       <!----> 
+       <li class="ng-tns-c95-1 ng-star-inserted"><a class="ng-tns-c95-1 ng-star-inserted" href="https://s5.sir.sportradar.com/betradar/en" target="_blank"><span class="ng-tns-c95-1"><i class="ng-tns-c95-1 cd-icon2 icon-Statistics"></i></span><span class="align-middle ng-tns-c95-1"> Statistics 
+          <!----></span></a> 
+        <!----> 
+        <!----> 
+        <!----></li> 
+       <!----> 
+       <!----> 
+       <li class="ng-tns-c95-1 ng-star-inserted"> 
+        <!----><a class="ng-tns-c95-1 ng-star-inserted" href="#/content/lost_bonus"><span class="ng-tns-c95-1"><i class="ng-tns-c95-1 icon-Claim-Bonus cd-icon2"></i></span><span class="align-middle ng-tns-c95-1"> Claim Bonus 
+          <!----></span></a> 
+        <!----> 
+        <!----></li> 
+       <!----> 
+       <!----> 
+       <li class="ng-tns-c95-1 ng-star-inserted"> 
+        <!----><a class="ng-tns-c95-1 ng-star-inserted" href="#/content/promotion"><span class="ng-tns-c95-1"><i class="ng-tns-c95-1 cd-icon2 icon-Promotion"></i></span><span class="align-middle ng-tns-c95-1"> Promotion 
+          <!----></span></a> 
+        <!----> 
+        <!----></li> 
+       <!----> 
+       <!----> 
+       <li class="ng-tns-c95-1 ng-star-inserted"> 
+        <!----><a class="ng-tns-c95-1 ng-star-inserted" href="#/contest"><span class="ng-tns-c95-1"><i class="ng-tns-c95-1 cd-icon2 icon-Contest"></i></span><span class="align-middle ng-tns-c95-1"> Competition 
+          <!----></span></a> 
+        <!----> 
+        <!----></li> 
+       <!----> 
+       <!----> 
+       <!----> 
+       <!----> 
+       <li class="ng-tns-c95-1 ng-star-inserted"><a class="ng-tns-c95-1 ng-star-inserted" href="https://affiliate.betclic24.com" target="_blank"><span class="ng-tns-c95-1"><i class="ng-tns-c95-1 cd-icon2 icon-Affiliate"></i></span><span class="align-middle ng-tns-c95-1"> Affiliate 
+          <!----></span></a> 
+        <!----> 
+        <!----> 
+        <!----></li> 
+       <!----> 
+       <!----> 
+       <li class="ng-tns-c95-1 ng-star-inserted"> 
+        <!----><a class="ng-tns-c95-1 ng-star-inserted" href="#/content/contacthelp"><span class="ng-tns-c95-1"><i class="ng-tns-c95-1 cd-icon2 icon-helpme"></i></span><span class="align-middle ng-tns-c95-1"> Help Me 
+          <!----></span></a> 
+        <!----> 
+        <!----></li> 
+       <!----> 
+       <!----> 
+       <!----> 
+       <!----> 
+       <!----> 
+      </ul> 
+     </div> 
+     <div class="setting-nav ng-tns-c95-1"> 
+      <div class="settings-menu ng-tns-c95-1"> 
+       <div class="sidebar-help ng-tns-c95-1"> 
+        <div class="lightdark-main ng-tns-c95-1" style="margin: 0;"> 
+         <label id="switch" class="switch ng-tns-c95-1"><input type="checkbox" id="slider" class="ng-tns-c95-1"><input type="checkbox" id="slider" class="ng-tns-c95-1"><span class="slider round ng-tns-c95-1"></span></label> 
+        </div> 
+        <div class="dropdown left-divider lang-pdown ng-tns-c95-1"> 
+         <a href="javascript://" class="LanguageMenu ng-tns-c95-1 ng-star-inserted" title="EN"><img width="13" class="ng-tns-c95-1" src="https://cdn.hocosoftware.com/Websites/images/flag/en.svg?v=1.11"><span class="ng-tns-c95-1">EN</span><i class="fa fa-angle-down dropdown-arrow ng-tns-c95-1"></i></a> 
+         <!----> 
+         <ul style="max-height: 230px; overflow: auto;" class="ng-tns-c95-1"> 
+          <li class="ng-tns-c95-1 ng-star-inserted"><a href="javascript://" class="ng-tns-c95-1" title="FR"><img class="ng-tns-c95-1" src="https://cdn.hocosoftware.com/Websites/images/flag/fr.svg?v=1.11"><span class="ng-tns-c95-1">FR</span></a></li> 
+          <li class="ng-tns-c95-1 ng-star-inserted"><a href="javascript://" class="ng-tns-c95-1" title="TR"><img class="ng-tns-c95-1" src="https://cdn.hocosoftware.com/Websites/images/flag/tr.svg?v=1.11"><span class="ng-tns-c95-1">TR</span></a></li> 
+          <li class="ng-tns-c95-1 ng-star-inserted"><a href="javascript://" class="ng-tns-c95-1" title="AR"><img class="ng-tns-c95-1" src="https://cdn.hocosoftware.com/Websites/images/flag/ar.svg?v=1.11"><span class="ng-tns-c95-1">AR</span></a></li> 
+          <li class="ng-tns-c95-1 ng-star-inserted"><a href="javascript://" class="ng-tns-c95-1" title="PT-BR"><img class="ng-tns-c95-1" src="https://cdn.hocosoftware.com/Websites/images/flag/pt-BR.svg?v=1.11"><span class="ng-tns-c95-1">PT-BR</span></a></li> 
+          <!----> 
+         </ul> 
+        </div> 
+       </div> 
+      </div> 
+     </div> 
+     <!----> 
+    </div> 
+    <div class="notificationsidebar ng-tns-c95-1 ng-star-inserted"> 
+     <div class="notification-wrapper ng-tns-c95-1"> 
+      <ul id="notifications" class="notifications ng-tns-c95-1 ng-star-inserted"> 
+       <li class="ng-tns-c95-1"> 
+        <!----><h2 class="notifi-title ng-tns-c95-1 ng-star-inserted"><span class="ng-tns-c95-1">Notifications</span><a href="javascript://" class="ng-tns-c95-1"><i class="pi pi-times ng-tns-c95-1"></i></a></h2> 
+        <!----> 
+        <!----> 
+        <!----></li> 
+       <!----> 
+       <li class="no_notifications ng-tns-c95-1 ng-star-inserted"> 
+        <div class="notification ng-tns-c95-1"> 
+         <div class="notification-text ng-tns-c95-1"> 
+          <p class="ng-tns-c95-1">you do not have any notification.</p> 
+         </div> 
+        </div></li> 
+       <!----> 
+      </ul> 
+      <!----> 
+     </div> 
+    </div> 
+    <!----> 
+    <!----> 
+    <!----> 
+    <!----> 
+    <!----> 
+   </app-header> 
+   <div class="ng-tns-c97-0" style="padding-bottom: 12px;"> 
+    <router-outlet class="ng-tns-c97-0"></router-outlet> 
+    <ng-component class="ng-star-inserted"> 
+     <!----> 
+     <div class="account-page-wrapper ng-star-inserted"> 
+      <div class="my-account-menu" hidden> 
+       <ul class="ng-star-inserted"> 
+        <li class="ng-star-inserted"><h4><i class="cd-icon2 icon-money"></i> Finance</h4> 
+         <div routerlink="/account/deposit" class="account-menu-box bt-0 ng-star-inserted" tabindex="0"> 
+          <i class="fa fa-download"></i> 
+          <span>Deposit </span> 
+         </div> 
+         <!----> 
+         <div routerlink="/account/withdraw" class="account-menu-box ng-star-inserted" tabindex="0"> 
+          <i class="fa fa-upload"></i> 
+          <span>Withdraw </span> 
+         </div> 
+         <!----> 
+         <!----> 
+         <div routerlink="/account/define_account" class="account-menu-box ng-star-inserted" tabindex="0"> 
+          <i class="fa fa-university"></i> 
+          <span>Define Account</span> 
+         </div> 
+         <!----> 
+         <div routerlink="/account/point_money" class="account-menu-box point-order" tabindex="0" hidden> 
+          <i class="fa fa-star"></i> 
+          <span>Point To Balance</span> 
+         </div></li> 
+        <!----> 
+        <li class="ng-star-inserted"><h4><i class="cd-icon2 icon-star-ticket"></i> Statistics</h4> 
+         <div routerlink="/account/mybets" class="account-menu-box bt-0 ng-star-inserted" tabindex="0"> 
+          <i class="fa fa-calendar"></i> 
+          <span>My Bets</span> 
+         </div> 
+         <!----> 
+         <div routerlink="/account/my_bonuses" class="account-menu-box bonus-cycle-wrap" tabindex="0"> 
+          <i class="fa fa-recycle"></i> 
+          <span class="bonus-cycle-text">My Bonuses 
+           <!----></span> 
+         </div> 
+         <div routerlink="/account/point_order" class="account-menu-box point-order" tabindex="0" hidden> 
+          <i class="fa fa-star"></i> 
+          <span>Point Order History</span> 
+         </div> 
+         <div routerlink="/account/referearn" routerlinkactive="active" class="account-menu-box" tabindex="0" hidden> 
+          <i class="fa fa-box-open"></i> 
+          <span>Refer &amp; Earn</span> 
+         </div></li> 
+        <!----> 
+        <li class="ng-star-inserted"><h4><i class="cd-icon2 icon-passage-of-time"></i> History</h4> 
+         <div routerlink="/account/balance_summary" class="account-menu-box bt-0" tabindex="0"> 
+          <i class="fa fa-coins"></i> 
+          <span>Balance</span> 
+         </div> 
+         <div routerlink="/account/history/view" class="account-menu-box ng-star-inserted" tabindex="0"> 
+          <i class="fa fa-dollar-sign"></i> 
+          <span>Payment History</span> 
+         </div> 
+         <!----> 
+         <div routerlink="/account/contact" class="account-menu-box ng-star-inserted" tabindex="0"> 
+          <i class="fa fa-file-contract"></i> 
+          <span>Contact Us</span> 
+         </div> 
+         <!----></li> 
+        <!----> 
+        <li><h4><i class="cd-icon2 icon-account"></i> Account</h4> 
+         <div routerlink="/account/user_details" class="account-menu-box bt-0" tabindex="0"> 
+          <i class="fa fa-user"></i> 
+          <span>User Detail</span> 
+         </div> 
+         <div routerlink="/account/user_edit" class="account-menu-box" tabindex="0"> 
+          <i class="fa fa-user-edit"></i> 
+          <span>Edit Profile</span> 
+         </div> 
+         <!----> 
+         <div routerlink="/account/user_documents" class="account-menu-box" tabindex="0" hidden> 
+          <i class="fa fa-id-card"></i> 
+          <span>Account Verification</span> 
+         </div> 
+         <div routerlink="/account/change_password" class="account-menu-box" tabindex="0"> 
+          <i class="fa fa-key"></i> 
+          <span>Change Password</span> 
+         </div> 
+         <div routerlink="/account/setauthenticator" class="account-menu-box" tabindex="0"> 
+          <i class="cd-icon icon-google-authenticator"></i> 
+          <span>2FA</span> 
+         </div> 
+         <div class="account-menu-box signout"> 
+          <i class="fa fa-sign-out-alt"></i> 
+          <span>Logout</span> 
+         </div></li> 
+       </ul> 
+       <!----> 
+       <!----> 
+       <!----> 
+       <!----> 
+      </div> 
+      <router-outlet></router-outlet> 
+      <ng-component class="ng-star-inserted"> 
+       <!----> 
+       <!----> 
+       <div class="payment-wrapper paymentlist-main" style="min-height: auto;"> 
+        <!----> 
+        <!----> 
+        <!----> 
+        <!----> 
+        <!----> 
+        <!----> 
+        <router-outlet class="ng-star-inserted"></router-outlet> 
+        <ng-component class="ng-star-inserted"> 
+         <div class="tabs heading heading-center-align ng-star-inserted"> 
+          <a href="#/account/deposit" routerlink="/account/deposit" data-nav="back" class="go-back ng-star-inserted"><i class="far fa-angle-left"></i></a> 
+          <!----> 
+          <span class="payment-header fullwith">D17 Deposit</span> 
+         </div> 
+         <!----> 
+         <!----> 
+         <div class="tabs payment-btn-tabs"> 
+          <ul class="text-center"> 
+           <li><a href="javascript://" pripple="" class="p-ripple p-element active ng-star-inserted">Deposit <span class="p-ink"></span></a> 
+            <!----></li> 
+           <li class="ng-star-inserted"><a href="javascript://" pripple="" class="p-ripple p-element">Deposit History<span class="p-ink"></span></a></li> 
+           <!----> 
+          </ul> 
+         </div> 
+         <!----> 
+         <div class="page-content page-box-pay with-video ng-star-inserted"> 
+          <div class="one-half mt-30 ng-star-inserted"> 
+           <div class="title-imgvideo-part"> 
+            <div class="title-imgvideo ng-star-inserted"> 
+             <a href="javascript://" class="video-title">90798247</a> 
+            </div> 
+            <!----> 
+            <div class="payment-imgvideo-block ng-star-inserted"> 
+             <!----> 
+             <img class="payment-img ng-star-inserted" src="https://cdn.betclic24.com/images/pay/files/9965_M.png?v=1754918859"> 
+             <!----> 
+            </div> 
+            <!----> 
+            <!----> 
+           </div> 
+          </div> 
+          <!----> 
+          <div class="one-half"> 
+           <p class="abbcb" hidden><span class="ng-star-inserted"><span>Minimum Deposit Limit: 5</span> <span class="Currency_Code"> TND</span></span> 
+            <!----><br class="ng-star-inserted"> 
+            <!----><span class="ng-star-inserted"><span>Maximum Deposit Limit: 500</span> <span class="Currency_Code">TND</span></span> 
+            <!----><br class="ng-star-inserted"> 
+            <!----> 
+            <!----> 
+            <!----><span class="ng-star-inserted">Maximum Processing Minutes : 10 Minute</span> 
+            <!----><br class="ng-star-inserted"> 
+            <!----> 
+            <!----> 
+            <!----> 
+            <!----></p> 
+           <div class="account-form payment-filed ng-star-inserted" style="margin-right: auto; margin-left: 0;" hidden> 
+            <form ngnativevalidate="" class="mt-45 ng-untouched ng-pristine ng-invalid ng-star-inserted"> 
+             <div class="ng-star-inserted"> 
+              <div class="test-form"> 
+               <div class="form-row ng-star-inserted"> 
+                <label>Amount</label> 
+                <div class="input full-width"> 
+                 <!----> 
+                 <!----> 
+                 <!----> 
+                 <!----> 
+                 <input type="text" formcontrolname="Amount" number-only="" class="full-width ng-untouched ng-pristine ng-invalid ng-star-inserted"> 
+                 <!----> 
+                 <!----> 
+                 <!----> 
+                 <!----> 
+                 <!----> 
+                 <!----> 
+                 <!----> 
+                 <!----> 
+                 <!----> 
+                 <!----> 
+                </div> 
+               </div> 
+               <!----> 
+               <!----> 
+               <!----> 
+              </div> 
+             </div> 
+             <!----> 
+             <div class="ng-star-inserted"> 
+              <div class="test-form"> 
+               <div class="form-row ng-star-inserted"> 
+                <label>Numero_D17</label> 
+                <div class="input full-width"> 
+                 <input type="text" class="full-width ng-untouched ng-pristine ng-invalid ng-star-inserted"> 
+                 <!----> 
+                 <!----> 
+                 <!----> 
+                 <!----> 
+                 <!----> 
+                 <!----> 
+                 <!----> 
+                 <!----> 
+                 <!----> 
+                 <!----> 
+                 <!----> 
+                 <!----> 
+                 <!----> 
+                 <!----> 
+                </div> 
+               </div> 
+               <!----> 
+               <!----> 
+               <!----> 
+              </div> 
+             </div> 
+             <!----> 
+             <div class="ng-star-inserted"> 
+              <div class="test-form"> 
+               <div class="form-row ng-star-inserted"> 
+                <label>Capture</label> 
+                <div class="input full-width"> 
+                 <!----> 
+                 <!----> 
+                 <!----> 
+                 <!----> 
+                 <!----> 
+                 <!----> 
+                 <!----> 
+                 <!----> 
+                 <!----> 
+                 <!----> 
+                 <!----> 
+                 <!----> 
+                 <!----> 
+                 <file-upload-payment class="ng-star-inserted"> 
+                  <div class="uploaded-files ng-star-inserted"> 
+                   <div class="file_upload"> 
+                    <div fxlayout="row" fxlayoutalign="center center" class="upload_file_wrap"> 
+                     <input hidden type="file" accept="application/pdf,image/*,application/msword,application/vnd.openxmlformats-officedocument.wordprocessingml.document"> 
+                     <!----> 
+                     <div class="overlay"> 
+                      <span><button type="button" pripple="" mat-raised-button="" class="p-ripple p-element btn btn-primary">Choose File<span class="p-ink"></span></button> 
+                       <!----></span> 
+                     </div> 
+                     <div class="upload-label ng-star-inserted"> 
+                      <i class="fa fa-upload"></i> 
+                      <label>Upload File</label> 
+                     </div> 
+                     <!----> 
+                    </div> 
+                    <span class="file-upload-note">Please Upload Valid Files. supported files are (pdf,doc,docx,jpeg,jpg,png,gif,heif)</span> 
+                    <span class="file-upload-note" style="font-weight: 800;">File Size of Upto undefined MB allowed.</span> 
+                   </div> 
+                  </div> 
+                  <!----> 
+                 </file-upload-payment> 
+                 <!----> 
+                 <!----> 
+                 <!----> 
+                 <!----> 
+                 <!----> 
+                 <!----> 
+                </div> 
+               </div> 
+               <!----> 
+               <!----> 
+               <!----> 
+              </div> 
+             </div> 
+             <!----> 
+             <div class="ng-star-inserted"> 
+              <div class="test-form"> 
+               <div class="form-row ng-star-inserted"> 
+                <label>Numero_Autorisation</label> 
+                <div class="input full-width"> 
+                 <input type="text" class="full-width ng-untouched ng-pristine ng-invalid ng-star-inserted"> 
+                 <!----> 
+                 <!----> 
+                 <!----> 
+                 <!----> 
+                 <!----> 
+                 <!----> 
+                 <!----> 
+                 <!----> 
+                 <!----> 
+                 <!----> 
+                 <!----> 
+                 <!----> 
+                 <!----> 
+                 <!----> 
+                </div> 
+               </div> 
+               <!----> 
+               <!----> 
+               <!----> 
+              </div> 
+             </div> 
+             <!----> 
+             <!----> 
+             <!----> 
+             <div class="form-row text-right"> 
+              <button type="submit" id="depsubmit" pripple="" class="p-ripple p-element mt-25 btn btn-primary">Deposit <span class="p-ink"></span></button> 
+             </div> 
+            </form> 
+            <!----> 
+           </div> 
+           <!----> 
+           <div class="waitingPart_Relative ng-star-inserted"> 
+            <i class="cd-icon nav-sports"></i> 
+           </div> 
+           <!----> 
+           <!----> 
+          </div> 
+          <!----> 
+         </div> 
+         <!----> 
+         <!----> 
+         <!----> 
+         <!----> 
+         <!----> 
+         <!----> 
+         <!----> 
+         <!----> 
+         <!----> 
+         <!----> 
+         <!----> 
+         <!----> 
+         <!----> 
+         <!----> 
+         <!----> 
+         <!----> 
+         <modal-dialog contentwidth="900px" class="outsideclick-modal" id="98044806.5264998"> 
+          <div role="dialog" class="modal fade"> 
+           <div class="modal-dialog" style="width: 900px;"> 
+            <div style="width: auto;"> 
+             <div class="modal-content text-left div_inline"> 
+              <div class="modal-header"> 
+               <h3> &nbsp; </h3> 
+               <a href="javascript://" class="close-modal"></a> 
+              </div> 
+              <div class="modal-body pad30 modaldesc-wrap"></div> 
+             </div> 
+            </div> 
+           </div> 
+          </div> 
+         </modal-dialog> 
+         <!----> 
+         <modal-dialog contentwidth="900px" id="23549399.45530471"> 
+          <div role="dialog" class="modal fade"> 
+           <div class="modal-dialog" style="width: 900px;"> 
+            <div style="width: auto;"> 
+             <div class="modal-content text-left div_inline" style="min-width: 80%;"> 
+              <div class="modal-header"> 
+               <h3> 90798247 </h3> 
+               <a href="javascript://" class="close-modal"></a> 
+              </div> 
+              <div class="modal-body pad30"> 
+               <p class="text-justify"></p> 
+              </div> 
+             </div> 
+            </div> 
+           </div> 
+          </div> 
+         </modal-dialog> 
+         <modal-dialog class="liveCasinoPopup" id="61677388.629225425"> 
+          <div role="dialog" class="modal fade"> 
+           <div class="modal-dialog" style="width: auto;"> 
+            <div style="width: auto;"> 
+             <div class="modal-content promotion-detail page-close-icon"> 
+              <div class="modal-header ng-star-inserted"> 
+               <span><a href="#/" routerlink="/"><span class="header-logo"></span></a></span> 
+               <a href="javascript://" class="close-modal" title="Close"></a> 
+              </div> 
+              <!----> 
+              <!----> 
+              <div class="modal-btns"> 
+               <a href="javascript://" title="Close"><i class="fa fa-times"></i></a> 
+              </div> 
+             </div> 
+            </div> 
+           </div> 
+          </div> 
+         </modal-dialog> 
+        </ng-component> 
+        <!----> 
+        <!----> 
+        <!----> 
+        <!----> 
+        <!----> 
+       </div> 
+      </ng-component> 
+      <!----> 
+     </div> 
+     <!----> 
+     <!----> 
+    </ng-component> 
+    <!----> 
+    <!----> 
+   </div> 
+   <app-footer class="ng-tns-c97-0" style="bottom: -294.859px;"> 
+    <!----> 
+    <!----> 
+    <!----> 
+    <footer class="footer ng-star-inserted"> 
+     <!----> 
+     <div class="m-footer-row powered-licimg ng-star-inserted"> 
+      <div style="margin-inline-end: auto;" class="ng-star-inserted"> 
+       <h4 class="poweredby">Designed By</h4> 
+       <a class="poweredby_wrapper" href="https://www.hocosoftware.com" target="_blank"><img width="160" class="powered_by softwareby white-theme-hide" src="https://cdn.hocosoftware.com/Websites/images/SponsorShip/hoco-logo.gif?v=1.11"></a> 
+      </div> 
+      <!----> 
+      <!----> 
+      <!----> 
+      <!----> 
+      <!----> 
+     </div> 
+     <!----> 
+     <!----> 
+     <!----> 
+     <!----> 
+     <!----> 
+     <!----> 
+     <!----> 
+     <!----> 
+     <!----> 
+     <!----> 
+     <!----> 
+     <!----> 
+     <!----> 
+     <!----> 
+     <div class="social-links ng-star-inserted"> 
+      <div class="social text-center"> 
+       <!----> 
+       <a target="_blank" class="twitter-icon ng-star-inserted" href="https://t.me/bbetclic24"> 
+        <svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 24 24" width="24" height="24"> 
+         <path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"></path> 
+        </svg></a> 
+       <!----> 
+       <!----> 
+       <!----> 
+       <!----> 
+       <!----> 
+      </div> 
+     </div> 
+     <!----> 
+     <!----> 
+     <!----> 
+     <!----> 
+     <!----> 
+     <!----> 
+     <!----> 
+     <!----> 
+     <!----> 
+     <!----> 
+     <!----> 
+     <!----> 
+     <!----> 
+     <!----> 
+     <!----> 
+     <!----> 
+     <!----> 
+     <!----> 
+     <!----> 
+     <!----> 
+     <!----> 
+     <div class="m-footer-row footer-navbar ng-star-inserted"> 
+      <ul class="nav secondary"> 
+       <li class="ng-star-inserted"><a href="#/content/page/about_us?ID=1" routerlinkactive="active"><span><i class="fa fa-info-circle"></i></span><span class="align-middle">About Us</span></a></li> 
+       <li class="ng-star-inserted"><a href="#/content/page/contact?ID=6" routerlinkactive="active"><span><i class="fa fa-info-circle"></i></span><span class="align-middle">Contact</span></a></li> 
+       <!----> 
+      </ul> 
+     </div> 
+     <!----> 
+     <!----> 
+     <!----> 
+     <!----> 
+     <!----> 
+     <!----> 
+     <!----> 
+     <!----> 
+     <!----> 
+     <!----> 
+     <!----> 
+     <!----> 
+     <!----> 
+     <!----> 
+     <!----> 
+     <!----> 
+     <!----> 
+     <div class="bottom-commonsocmedia ng-star-inserted"> 
+      <ul class="social-commonarea social-telegrammain ng-star-inserted"> 
+       <li class="ng-star-inserted"><span class="whatsapp-icon"><img src="https://cdn.hocosoftware.com/Websites/images/telegram.webp?v=1.11"></span><a target="_blank" href="https://t.me/bbetclic24"><span> Telegram #1 </span></a></li> 
+       <!----> 
+      </ul> 
+      <!----> 
+      <!----> 
+     </div> 
+     <!----> 
+     <!----> 
+     <!----> 
+     <!----> 
+     <!----> 
+     <!----> 
+     <!----> 
+     <!----> 
+     <!----> 
+     <!----> 
+     <!----> 
+     <!----> 
+     <!----> 
+     <!----> 
+     <!----> 
+     <!----> 
+     <!----> 
+     <!----> 
+     <!----> 
+     <!----> 
+     <!----> 
+     <!----> 
+     <div class="footer-bottomdetails footer-copyright ng-star-inserted"> 
+      <p class="copyright">© BetClic24 | 2014 - 2025 | All Rights Reserved</p> 
+     </div> 
+     <!----> 
+     <!----> 
+     <!----> 
+     <!----> 
+     <div class="footer-menu-wrapper ng-star-inserted"> 
+      <div class="footer-link ng-star-inserted"> 
+       <!----> 
+       <a href="#/" class="ng-star-inserted"><i class="footer-menu-ic ng-star-inserted"> 
+         <svg aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewbox="0 0 24 24" class="w-6 h-6 text-gray-800 dark:text-white"> 
+          <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m4 12 8-8 8 8M6 10.5V19c0 .6.4 1 1 1h3v-3c0-.6.4-1 1-1h2c.6 0 1 .4 1 1v3h3c.6 0 1-.4 1-1v-8.5"></path> 
+         </svg></i><i class="footer-menu-img ng-star-inserted"><img src="https://cdn.betclic24.com/BetClic24/images/footer-icons/home.webp?v=1.11"></i><span class="ng-star-inserted">Home</span> 
+        <!----> 
+        <!----> 
+        <!----> 
+        <!----> 
+        <!----> 
+        <!----> 
+        <!----> 
+        <!----> 
+        <!----> 
+        <!----></a> 
+       <!----> 
+      </div> 
+      <!----> 
+      <!----> 
+      <div class="footer-link ng-star-inserted"> 
+       <!----> 
+       <a href="#/sport/pregame" class="prematch-menu ng-star-inserted"> 
+        <!----><i class="footer-menu-ic ng-star-inserted"> 
+         <svg viewbox="0 0 64 64" xmlns="http://www.w3.org/2000/svg" stroke-width="3" stroke="#000000" fill="none"> 
+          <g id="SVGRepo_bgCarrier" stroke-width="0"></g> 
+          <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g> 
+          <g id="SVGRepo_iconCarrier"> 
+           <circle cx="33.69" cy="32" r="24.99" stroke-linecap="round"></circle> 
+           <polygon points="33.43 20.18 22.84 27.88 26.89 40.32 39.98 40.32 44.02 27.88 33.43 20.18" stroke-linecap="round"></polygon> 
+           <polyline points="40.41 7.92 33.43 13.48 26.59 8.04" stroke-linecap="round"></polyline> 
+           <line x1="33.43" y1="20.18" x2="33.43" y2="13.48" stroke-linecap="round"></line> 
+           <polyline points="58.68 32 50.6 25.92 53.78 17.14" stroke-linecap="round"></polyline> 
+           <polyline points="40.72 55.99 44.02 46.39 54.05 46.49" stroke-linecap="round"></polyline> 
+           <polyline points="25.61 55.65 22.55 46.39 13.26 46.39" stroke-linecap="round"></polyline> 
+           <polyline points="8.7 32 15.99 25.97 13.16 17.76" stroke-linecap="round"></polyline> 
+           <line x1="22.84" y1="27.88" x2="15.99" y2="25.97" stroke-linecap="round"></line> 
+           <line x1="26.89" y1="40.32" x2="22.55" y2="46.39" stroke-linecap="round"></line> 
+           <line x1="39.98" y1="40.32" x2="44.02" y2="46.39" stroke-linecap="round"></line> 
+           <line x1="44.02" y1="27.89" x2="50.6" y2="25.92" stroke-linecap="round"></line> 
+          </g> 
+         </svg></i><i class="footer-menu-img ng-star-inserted"><img src="https://cdn.betclic24.com/BetClic24/images/footer-icons/prematch.webp?v=1.11"></i><span class="ng-star-inserted">Prematch</span> 
+        <!----> 
+        <!----> 
+        <!----> 
+        <!----> 
+        <!----> 
+        <!----> 
+        <!----> 
+        <!----> 
+        <!----></a> 
+       <!----> 
+      </div> 
+      <!----> 
+      <!----> 
+      <div class="footer-link ng-star-inserted"> 
+       <!----> 
+       <a href="#/game/casino?pg=0" class="ng-star-inserted"> 
+        <!----> 
+        <!----> 
+        <!----> 
+        <!----> 
+        <!----> 
+        <!----><i class="footer-menu-ic ng-star-inserted"> 
+         <svg data-v-7229e3b6="" viewbox="0 0 16 17" focusable="false" role="img" class="ico__svg"> 
+          <path d="M15.2 11a7.6 7.6 0 0 1-8.5 5A7.6 7.6 0 0 1 1 11C.6 10.2.4 9.3.4 8.5c0-1 .2-1.9.6-2.7A7.6 7.6 0 0 1 9.3.9 7.6 7.6 0 0 1 15 5.7c.4.8.6 1.7.6 2.7 0 .8-.2 1.7-.4 2.5Zm-8.5 4h2.6v-1.6a5 5 0 0 1-1.3.2c-.4 0-.9 0-1.3-.2V15ZM3 12.8l1.3-.8a5 5 0 0 1-1.2-2.2l-1.4.7c.3.8.8 1.6 1.3 2.2v.1Zm.1-8.6c-.5.6-1 1.3-1.3 2.1l1.3.7a5 5 0 0 1 1.3-2.2l-1.3-.6ZM9.3 2H6.7v1.6A5 5 0 0 1 8 3.4c.4 0 .9 0 1.3.2V2ZM8 4.5a4 4 0 1 0 0 8 4 4 0 0 0 0-8ZM13 4l-1.3 1a5 5 0 0 1 1.3 2l1.3-.8c-.3-.8-.7-1.5-1.3-2.2Zm0 5.8a5 5 0 0 1-1.2 2.2l1.3.7c.6-.6 1-1.4 1.3-2.2l-1.4-1v.3Z"></path> 
+          <path d="M11.1 8.5c0 1.7-1.4 3.2-3 3.2a3.1 3.1 0 0 1-3.2-3.2C5 6.7 6.3 5.3 8 5.3c1.7 0 3.1 1.4 3.1 3.2Z"></path> 
+         </svg></i><i class="footer-menu-img ng-star-inserted"><img class="slot-icon" src="https://cdn.betclic24.com/BetClic24/images/footer-icons/slot.webp?v=1.11"></i><span class="ng-star-inserted">Slot</span> 
+        <!----> 
+        <!----> 
+        <!----> 
+        <!----></a> 
+       <!----> 
+      </div> 
+      <!----> 
+      <!----> 
+      <div class="footer-link ng-star-inserted"> 
+       <!----> 
+       <a href="#/game/casinolive" class="ng-star-inserted"> 
+        <!----> 
+        <!----> 
+        <!----> 
+        <!----><i class="footer-menu-ic ng-star-inserted"> 
+         <svg viewbox="0 -8.5 49 49" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"> 
+          <g id="SVGRepo_bgCarrier" stroke-width="0"></g> 
+          <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g> 
+          <g id="SVGRepo_iconCarrier"> 
+           <title>casino-cards</title> 
+           <desc>
+             Created with Sketch. 
+           </desc> 
+           <g id="icons" stroke="none" stroke-width="1" fill-rule="evenodd"> 
+            <g id="ui-gambling-website-lined-icnos-casinoshunter" transform="translate(-2286.000000, -414.000000)" fill-rule="nonzero"> 
+             <g id="1" transform="translate(1350.000000, 120.000000)"> 
+              <path d="M971.861,297.527154 L981.865166,300.207676 C983.425031,300.62564 984.369223,302.20214 984.041096,303.783072 L983.999369,303.958691 L978.833238,323.238954 C978.409964,324.818631 976.844612,325.783168 975.282906,325.461406 L975.109456,325.420327 L962.727,322.102154 L966.857709,322.103143 C969.54825,322.103143 971.74277,319.952453 971.856407,317.256063 L971.86103,317.036273 L971.861,314.439154 L975.09175,312.420992 L975.259217,312.312779 C975.747172,311.969539 976.102664,311.462154 976.259035,310.878568 C976.433812,310.226293 976.3457,309.532171 976.013953,308.949093 C975.682206,308.366015 975.133856,307.941499 974.489767,307.768916 C973.965272,307.628378 973.412227,307.664262 972.912363,307.865538 L972.727567,307.948747 L972.631598,307.813387 L972.500209,307.654427 C972.316381,307.449759 972.10054,307.277174 971.861437,307.143445 L971.861,297.527154 Z M948.208,297.537154 L948.207895,307.16439 C947.983385,307.295015 947.780209,307.460288 947.605838,307.654427 L947.474448,307.813387 L947.37848,307.948747 C946.832527,307.67599 946.206337,307.61081 945.61628,307.768916 C944.97219,307.941499 944.423841,308.366015 944.092093,308.949093 C943.760346,309.532171 943.672235,310.226293 943.847011,310.878568 C944.003383,311.462154 944.358875,311.969539 944.84683,312.312779 L945.014296,312.420992 L948.208,314.417154 L948.208968,317.036273 C948.208968,319.760987 950.332684,321.983381 952.995255,322.098462 L953.212289,322.103143 L957.378,322.102154 L944.99659,325.420327 C943.378953,325.853772 941.711759,324.877138 941.272809,323.238954 L936.106678,303.958691 C935.667728,302.320507 936.623243,300.64112 938.240881,300.207676 L948.208,297.537154 Z M967.311132,294 C969.010469,294 970.388055,295.377585 970.388055,297.076923 L970.388055,317.076923 C970.388055,318.776261 969.010469,320.153846 967.311132,320.153846 L953.464978,320.153846 C951.76564,320.153846 950.388055,318.776261 950.388055,317.076923 L950.388055,297.076923 C950.388055,295.377585 951.76564,294 953.464978,294 L967.311132,294 Z M966.541901,315.538462 L965.003439,315.538462 C964.578605,315.538462 964.234209,315.882858 964.234209,316.307692 C964.234209,316.697124 964.523597,317.018965 964.899059,317.069901 L965.003439,317.076923 L966.541901,317.076923 C966.966735,317.076923 967.311132,316.732527 967.311132,316.307692 C967.311132,315.882858 966.966735,315.538462 966.541901,315.538462 Z M974.092452,309.251716 C974.348012,309.320193 974.565447,309.488679 974.697282,309.720393 C974.828974,309.951853 974.863888,310.227041 974.794464,310.486137 C974.746858,310.663803 974.652982,310.823491 974.52189,310.951346 L974.416734,311.041052 L974.319056,311.105751 L971.861,312.640154 L971.861,309.478154 L971.929917,309.553212 C972.117725,309.729798 972.384506,309.798165 972.634578,309.732576 L972.74045,309.69619 L972.825907,309.653014 L973.334563,309.355041 L973.452609,309.295884 C973.654443,309.210947 973.879397,309.194628 974.092452,309.251716 Z M946.653437,309.295884 L946.771483,309.355041 L947.28014,309.653014 L947.365596,309.69619 C947.658366,309.821778 947.995103,309.748151 948.20919,309.520126 L948.208,312.618154 L945.786991,311.105751 L945.689313,311.041052 C945.502895,310.902211 945.37109,310.708219 945.311583,310.486137 C945.242158,310.227041 945.277073,309.951853 945.408764,309.720393 C945.5406,309.488679 945.758035,309.320193 946.013595,309.251716 C946.22665,309.194628 946.451603,309.210947 946.653437,309.295884 Z M962.067629,303.230769 C961.57461,303.230769 961.096446,303.373413 960.688189,303.635919 L960.517662,303.755694 L960.388051,303.861813 C959.924576,303.456245 959.327943,303.230769 958.708085,303.230769 C958.031465,303.230769 957.382519,303.499429 956.90423,303.977724 C956.425942,304.456018 956.157286,305.104969 956.157286,305.781593 C956.157286,306.386965 956.372463,306.970225 956.760581,307.428969 L956.896301,307.577132 L959.828911,310.68219 C959.973895,310.835891 960.176483,310.923077 960.388055,310.923077 C960.564365,310.923077 960.734436,310.862531 960.870231,310.753298 L960.94737,310.68201 L963.885878,307.57045 C964.35304,307.09977 964.618824,306.45441 964.618824,305.781593 C964.618824,305.105149 964.3499,304.456145 963.871484,303.977724 C963.393098,303.499333 962.744508,303.230769 962.067629,303.230769 Z M944.579259,310.682362 L944.619538,310.812094 L944.608583,310.780537 L944.579259,310.682362 Z M975.526787,310.682362 L975.497464,310.780537 L975.486508,310.812094 L975.526787,310.682362 Z M944.8,309.253154 L944.775,309.293154 L944.786371,309.274484 L944.8,309.253154 Z M975.305,309.253154 L975.319676,309.274484 L975.33,309.293154 L975.305,309.253154 Z M962.067629,304.768923 C962.336218,304.768923 962.593943,304.875689 962.783928,305.065676 C962.973625,305.255663 963.080283,305.513163 963.080283,305.781593 C963.080283,305.965659 963.030132,306.144586 962.937379,306.300196 L962.859944,306.412248 L962.776009,306.505429 L960.388045,309.033623 L957.999064,306.504571 L957.920317,306.416621 C957.774066,306.233901 957.695826,306.011966 957.695826,305.781593 C957.695826,305.512825 957.802319,305.255541 957.992182,305.065676 C958.182253,304.875603 958.439618,304.768923 958.708085,304.768923 C958.9319,304.768923 959.148099,304.843055 959.323617,304.977602 L959.423782,305.06547 L959.844079,305.485772 L959.916498,305.549722 C960.187909,305.760756 960.568288,305.764614 960.843955,305.5615 L960.931672,305.48613 L961.351855,305.065548 L961.437199,304.989345 C961.615531,304.847383 961.837717,304.768923 962.067629,304.768923 Z M956.926516,305.781593 L956.932055,305.918 L956.929474,305.884215 L956.926516,305.781593 Z M957.551997,304.425902 L957.448161,304.521649 C957.481679,304.488322 957.516294,304.456359 957.551997,304.425902 Z M941.232414,302.585254 L939.767918,302.977665 C939.363509,303.086026 939.12463,303.505872 939.234367,303.915418 C939.33496,304.290836 939.693569,304.527281 940.064137,304.480616 L940.165313,304.460762 L941.629809,304.068351 C942.034218,303.95999 942.273097,303.540143 942.16336,303.130597 C942.053622,302.721051 941.636824,302.476893 941.232414,302.585254 Z M977.942687,303.130597 C977.842094,303.506014 978.034436,303.890087 978.37869,304.034958 L978.476238,304.068351 L979.940734,304.460762 L980.041909,304.480616 C980.412477,304.527281 980.771086,304.290836 980.871679,303.915418 C980.972272,303.540001 980.77993,303.155929 980.435676,303.011058 L980.338128,302.977665 L978.873632,302.585254 C978.469223,302.476893 978.052425,302.721051 977.942687,303.130597 Z M961.701055,304.038 L961.516386,304.087209 L961.657508,304.047593 L961.701055,304.038 Z M961.801852,304.019649 L961.701055,304.038 L961.718452,304.034528 L961.801852,304.019649 Z M955.77267,297.076923 L954.234209,297.076923 C953.809374,297.076923 953.464978,297.421319 953.464978,297.846154 C953.464978,298.235585 953.754367,298.557427 954.129829,298.608362 L954.234209,298.615385 L955.77267,298.615385 C956.197505,298.615385 956.541901,298.270988 956.541901,297.846154 C956.541901,297.421319 956.197505,297.076923 955.77267,297.076923 Z" id="casino-cards"></path> 
+             </g> 
+            </g> 
+           </g> 
+          </g> 
+         </svg></i><i class="footer-menu-img ng-star-inserted"><img class="live-casino-icon" src="https://cdn.betclic24.com/BetClic24/images/footer-icons/live-casino.webp?v=1.11"></i><span class="ng-star-inserted">Live Casino</span> 
+        <!----> 
+        <!----> 
+        <!----> 
+        <!----> 
+        <!----> 
+        <!----></a> 
+       <!----> 
+      </div> 
+      <!----> 
+      <!----> 
+      <div class="footer-link ng-star-inserted"> 
+       <!----> 
+       <a class="ng-star-inserted"> 
+        <!----> 
+        <!----> 
+        <!----> 
+        <!----> 
+        <!----> 
+        <!----> 
+        <!----> 
+        <!----><i class="footer-menu-ic ng-star-inserted"> 
+         <svg width="33" height="33" viewbox="0 0 33 33" fill="none" xmlns="http://www.w3.org/2000/svg"> 
+          <g clip-path="url(#clip0_1541_5606)"> 
+           <path d="M16.9419 8.61511C12.5624 8.61511 9 11.8578 9 15.8429C9 17.4027 9.55644 18.9221 10.5764 20.1656L10.1159 22.5983C10.0634 22.8743 10.1594 23.1563 10.3694 23.3438C10.5179 23.4773 10.7084 23.5462 10.9033 23.5462C10.9828 23.5462 11.0623 23.5342 11.1388 23.5117L14.1116 22.5953C15.016 22.9103 15.9684 23.0693 16.9448 23.0693C21.3243 23.0693 24.8867 19.8266 24.8867 15.8415C24.8867 11.8548 21.3246 8.61377 16.9448 8.61377L16.9419 8.61511ZM12.9418 17.4148C12.2788 17.4148 11.7419 16.8779 11.7419 16.2149C11.7419 15.552 12.2788 15.0151 12.9418 15.0151C13.6047 15.0151 14.1417 15.552 14.1417 16.2149C14.1417 16.8779 13.6047 17.4148 12.9418 17.4148ZM16.9419 17.4148C16.279 17.4148 15.7421 16.8779 15.7421 16.2149C15.7421 15.552 16.279 15.0151 16.9419 15.0151C17.6049 15.0151 18.1418 15.552 18.1418 16.2149C18.1418 16.8779 17.6049 17.4148 16.9419 17.4148ZM20.9421 17.4148C20.2791 17.4148 19.7422 16.8779 19.7422 16.2149C19.7422 15.552 20.2791 15.0151 20.9421 15.0151C21.605 15.0151 22.142 15.552 22.142 16.2149C22.142 16.8779 21.605 17.4148 20.9421 17.4148Z"></path> 
+           <path d="M30.506 14.8512C30.14 7.67722 24.2051 1.94922 16.9428 1.94922C9.67891 1.94922 3.7455 7.67722 3.37958 14.8512C1.98471 15.1962 0.945312 16.4486 0.945312 17.9484V21.9486C0.945312 23.714 2.38069 25.1478 4.14451 25.1478H6.14382C7.02575 25.1478 7.74419 24.4309 7.74419 23.5474V16.3481C7.74419 15.4661 7.02725 14.7477 6.14382 14.7477H4.98444C5.39839 8.50366 10.5969 3.5482 16.943 3.5482C23.2892 3.5482 28.4873 8.50366 28.9016 14.7477H27.7423C26.8603 14.7477 26.1419 15.4647 26.1419 16.3481V23.5474C26.1419 24.4294 26.8588 25.1478 27.7423 25.1478H28.9422C28.9422 26.4707 27.8652 27.5476 26.5424 27.5476H24.795C24.4636 26.6192 23.5846 25.9472 22.5422 25.9472H20.9419C19.619 25.9472 18.5421 27.0241 18.5421 28.347C18.5421 29.6699 19.619 30.7468 20.9419 30.7468H22.5422C23.5831 30.7468 24.4635 30.0763 24.795 29.1464H26.5424C28.7472 29.1464 30.5425 27.3526 30.5425 25.1463V25.0323C31.9179 24.6753 32.9423 23.4319 32.9423 21.9455V17.9454C32.9423 16.4455 31.9014 15.1931 30.508 14.8482L30.506 14.8512Z"></path> 
+          </g> 
+          <defs> 
+           <clippath id="clip0_1541_5606"> 
+            <rect width="32" height="32" fill="white" transform="translate(0.945312 0.348145)"></rect> 
+           </clippath> 
+          </defs> 
+         </svg></i><i class="footer-menu-img ng-star-inserted"><img class="promotion-icon" src="https://cdn.betclic24.com/BetClic24/images/footer-icons/live-chat.webp?v=1.11"></i><span class="ng-star-inserted">LiveChat</span> 
+        <!----> 
+        <!----></a> 
+       <!----> 
+      </div> 
+      <!----> 
+      <!----> 
+      <!----> 
+     </div> 
+     <!----> 
+     <!----> 
+    </footer> 
+    <!----> 
+    <!----> 
+   </app-footer> 
+   <!----> 
+   <p-toast position="top-right" class="p-element ng-tns-c97-0 ng-tns-c81-2"> 
+    <div class="ng-tns-c81-2 p-toast p-component p-toast-top-right" pr_id_1="" style=""> 
+     <!----> 
+    </div> 
+   </p-toast> 
+   <p-toast position="top-left" key="top_left" class="p-element ng-tns-c97-0 ng-tns-c81-3"> 
+    <div class="ng-tns-c81-3 p-toast p-component p-toast-top-left"> 
+     <!----> 
+    </div> 
+   </p-toast> 
+  </app-root> 
+  <modal-dialog class="confirm_delete ng-tns-c95-1" id="28144763.71799526"> 
+   <div role="dialog" class="modal fade"> 
+    <div class="modal-dialog" style="width: auto;"> 
+     <div style="width: auto;"> 
+      <div class="modal-content"> 
+       <div class="modal-body ng-tns-c95-1"> 
+        <a href="javascript://" class="close-modal ng-tns-c95-1" style="top: 15px;"></a> 
+        <i class="fa fa-question-circle ng-tns-c95-1"></i> 
+        <h2 class="ng-tns-c95-1">Are you sure you want to delete all notifications?</h2> 
+        <div class="mt-30 ng-tns-c95-1"> 
+         <a pripple="" href="javascript://" class="p-ripple p-element btn btn-danger ng-tns-c95-1"> Yes <span class="p-ink"></span></a> &nbsp;&nbsp;&nbsp; 
+         <a pripple="" href="javascript://" class="p-ripple p-element btn btn-primary ng-tns-c95-1">No<span class="p-ink"></span></a> 
+        </div> 
+        <div class="clear ng-tns-c95-1"></div> 
+       </div> 
+      </div> 
+     </div> 
+    </div> 
+   </div> 
+  </modal-dialog> 
+  <modal-dialog class="ng-tns-c95-1" id="6268663.253448281"> 
+   <div role="dialog" class="modal fade"> 
+    <div class="modal-dialog" style="width: auto;"> 
+     <div style="width: auto;"> 
+      <div class="modal-content referearn-modal"> 
+       <div class="modal-header ng-tns-c95-1"> 
+        <h3 class="ng-tns-c95-1">Refer &amp; Earn</h3> 
+        <a href="javascript://" class="close-modal ng-tns-c95-1"></a> 
+       </div> 
+       <div class="modal-body ng-tns-c95-1 ng-star-inserted"> 
+        <div class="refer-deswrap modaldesc-wrap ng-tns-c95-1"> 
+         <div class="ng-tns-c95-1">
+           null 
+         </div> 
+        </div> 
+        <div class="refer-modalbtns ng-tns-c95-1"> 
+         <a pripple="" href="javascript://" class="p-ripple p-element btn btn-secondary ng-tns-c95-1"> Terms And Conditions <span class="p-ink"></span></a> 
+         <a pripple="" href="javascript://" class="p-ripple p-element btn btn-primary ng-tns-c95-1"> How It Works <span class="p-ink"></span></a> 
+         <!----> 
+         <!----> 
+        </div> 
+       </div> 
+       <!----> 
+      </div> 
+     </div> 
+    </div> 
+   </div> 
+  </modal-dialog> 
+  <modal-dialog class="ng-tns-c95-1" id="43758811.430077106"> 
+   <div role="dialog" class="modal fade"> 
+    <div class="modal-dialog" style="width: auto;"> 
+     <div style="width: auto;"> 
+      <div class="modal-content referearn-modal"> 
+       <div class="modal-header ng-tns-c95-1"> 
+        <h3 class="ng-tns-c95-1">Terms And Conditions</h3> 
+       </div> 
+       <div class="modal-body ng-tns-c95-1 ng-star-inserted"> 
+        <a href="javascript://" class="close-modal ng-tns-c95-1" style="top: 15px;"></a> 
+        <div class="mt-30 modaldesc-wrap ng-tns-c95-1"> 
+         <div class="ng-tns-c95-1">
+           null 
+         </div> 
+        </div> 
+        <div class="clear ng-tns-c95-1"></div> 
+       </div> 
+       <!----> 
+      </div> 
+     </div> 
+    </div> 
+   </div> 
+  </modal-dialog> 
+  <modal-dialog class="ng-tns-c95-1" id="14143625.099114787"> 
+   <div role="dialog" class="modal fade"> 
+    <div class="modal-dialog" style="width: auto;"> 
+     <div style="width: auto;"> 
+      <div class="modal-content referearn-modal"> 
+       <div class="modal-header ng-tns-c95-1"> 
+        <h3 class="ng-tns-c95-1">How It Works</h3> 
+       </div> 
+       <div class="modal-body ng-tns-c95-1 ng-star-inserted"> 
+        <a href="javascript://" class="close-modal ng-tns-c95-1" style="top: 15px;"></a> 
+        <div class="mt-30 modaldesc-wrap ng-tns-c95-1"> 
+         <div class="ng-tns-c95-1">
+           null 
+         </div> 
+        </div> 
+        <div class="clear ng-tns-c95-1"></div> 
+       </div> 
+       <!----> 
+      </div> 
+     </div> 
+    </div> 
+   </div> 
+  </modal-dialog> 
+  <modal-dialog class="auth-modal ng-tns-c95-1" id="9140136.993450409"> 
+   <div role="dialog" class="modal fade"> 
+    <div class="modal-dialog" style="width: auto;"> 
+     <div style="width: auto;"> 
+      <forgotpassword> 
+       <div class="modal-content auth modal-fp-wrap"> 
+        <div class="modal-body"> 
+         <div class="auth-header-part ng-star-inserted"> 
+          <div class="auth-header-left"> 
+           <a href="#/" routerlink="/"><span class="logo-img"></span></a> 
+          </div> 
+          <div class="auth-header-right"> 
+           <a href="javascript://" class="close-modal"></a> 
+          </div> 
+         </div> 
+         <!----> 
+         <!----> 
+         <div class="modal-fp-content"> 
+          <div class="modal-subheader"> 
+           <i class="icon_cup ng-star-inserted"></i> 
+           <!----> 
+           <p>Forgot Password</p> 
+           <p>Continue Stay!</p> 
+          </div> 
+          <div class="form-row email-phone-checkbox"> 
+           <span class="checkbox ng-star-inserted"><input type="radio" checked name="fpmodelType" value="1" id="fpmodelType1" tabindex="1" class="ng-untouched ng-pristine ng-valid"><label for="fpmodelType1">Email</label></span> 
+           <!----> 
+           <!----> 
+          </div> 
+          <form novalidate class="ng-untouched ng-pristine ng-invalid"> 
+           <div> 
+            <input type="email" name="email" required formcontrolname="email" pattern="^(([^<>()\[\]\\.,;:\s@&quot;]+(\.[^<>()\[\]\\.,;:\s@&quot;]+)*)|(&quot;.+&quot;))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$" class="input-content-wrap ng-untouched ng-pristine ng-invalid" placeholder="Email" tabindex="1"> 
+            <span class="text-danger email" hidden>You must enter a valid e-mail address</span> 
+            <span class="text-danger email" style="margin-top: 5px; text-overflow: ellipsis; overflow: hidden; display: -webkit-box; -webkit-line-clamp: 4; -webkit-box-orient: vertical; font-size: 12px; white-space: normal;" hidden></span> 
+           </div> 
+           <!----> 
+           <div class="remember forgot-pass text-right"> 
+            <span style="opacity: 0.9;">Already Member ?&nbsp; </span> 
+            <a href="javascript://" tabindex="2">Sign In</a> 
+           </div> 
+           <div class="text-right mt-15"> 
+            <button pripple="" type="submit" class="p-ripple p-element btn btn-primary" tabindex="3" disabled><span class="align-middle">Reset Password</span> 
+             <!----><span class="p-ink"></span></button> 
+           </div> 
+          </form> 
+          <form novalidate hidden class="ng-untouched ng-dirty ng-invalid"> 
+           <div class="input-content-wrap ng-star-inserted"> 
+            <div class="country-code"> 
+             <p-dropdown optionlabel="Country_Code" formcontrolname="country" class="p-element p-inputwrapper p-inputwrapper-filled ng-untouched ng-dirty ng-valid"> 
+              <div class="p-dropdown p-component"> 
+               <div class="p-hidden-accessible"> 
+                <input type="text" readonly aria-haspopup="listbox" pautofocus="" role="combobox" class="p-element" aria-expanded="false" tabindex="2"> 
+               </div> 
+               <span class="p-element p-dropdown-label p-inputtext ng-star-inserted" id="pr_id_4_label"> 
+                <!----><i class="flag flag-af ng-star-inserted"></i> 
+                <!----><span class="ng-star-inserted">+93</span> 
+                <!----></span> 
+               <!----> 
+               <!----> 
+               <!----> 
+               <!----> 
+               <div role="button" aria-label="dropdown trigger" aria-haspopup="listbox" class="p-dropdown-trigger"> 
+                <span class="p-dropdown-trigger-icon pi pi-chevron-down"></span> 
+               </div> 
+               <p-overlay class="p-element ng-tns-c46-5 ng-star-inserted"> 
+                <!----> 
+               </p-overlay> 
+              </div> 
+             </p-dropdown> 
+            </div> 
+            <input type="text" name="gsmno" tabindex="3" formcontrolname="gsmno" minlength="4" maxlength="15" required style="padding-left: 100px;" class="ng-untouched ng-pristine ng-invalid"> 
+           </div> 
+           <!----> 
+           <!----> 
+           <!----> 
+           <div class="remember text-right"> 
+            <span style="opacity: 0.9;">Already Member&nbsp; </span> 
+            <a href="javascript://" tabindex="4">Sign In</a> 
+           </div> 
+           <div class="text-right mt-15"> 
+            <button pripple="" type="submit" class="p-ripple p-element btn btn-primary" tabindex="5" disabled><span class="align-middle">Reset Password</span> 
+             <!----><span class="p-ink"></span></button> 
+           </div> 
+          </form> 
+         </div> 
+        </div> 
+       </div> 
+      </forgotpassword> 
+     </div> 
+    </div> 
+   </div> 
+  </modal-dialog> 
+  <modal-dialog class="auth-modal ng-tns-c95-1" id="15801955.532674283"> 
+   <div role="dialog" class="modal fade"> 
+    <div class="modal-dialog" style="width: auto;"> 
+     <div style="width: auto;"> 
+      <register> 
+       <div class="modal-content auth" hidden> 
+        <div class="modal-body registrationConfirm"> 
+         <div class="auth-header-part ng-star-inserted"> 
+          <div class="auth-header-left"> 
+           <span class="logo-img"></span> 
+          </div> 
+          <div class="auth-header-right"> 
+           <a href="javascript://" class="close-modal"></a> 
+          </div> 
+         </div> 
+         <!----> 
+         <!----> 
+         <div class="register-thankyou"> 
+          <div class="modal-subheader"> 
+           <p>Thank you for your Registration</p> 
+          </div> 
+          <p>You are just one step away to start. We sent you an Email Verification Link on your registered email address. Please confirm your email address and use all services we are providing.</p> 
+          <p>We are happy to hear from you 24 * 7. If you have any query you can talk with us anytime.</p> 
+          <p>JUST ONE STEP AND YOU ARE ALL SET TO GO!!</p> 
+         </div> 
+        </div> 
+       </div> 
+       <div class="modal-content auth register"> 
+        <div class="modal-body"> 
+         <div class="auth-header-part ng-star-inserted"> 
+          <div class="auth-header-left"> 
+           <a href="#/" routerlink="/"><span class="logo-img"></span></a> 
+          </div> 
+          <div class="auth-header-right"> 
+           <a href="javascript://" class="close-modal"></a> 
+          </div> 
+         </div> 
+         <!----> 
+         <!----> 
+         <form novalidate class="ng-untouched ng-pristine ng-invalid"> 
+          <div class="modal-subheader"> 
+           <img class="modal-subheader-img ng-star-inserted" src="https://cdn.hocosoftware.com/Websites/images/register-img.svg?v=1.11"> 
+           <!----> 
+           <div class="modal-subheader-custom-img ng-star-inserted"></div> 
+           <!----> 
+           <p>Register To <span class="primary-color">BetClic24</span></p> 
+           <p>Start Winning!</p> 
+          </div> 
+          <!----> 
+          <div class="register-columns"> 
+           <div class="column1"> 
+            <!----> 
+            <div class="reg-two-col ng-star-inserted"> 
+             <div class="ng-star-inserted"> 
+              <label class="ng-star-inserted">Name <span class="red">*</span></label> 
+              <!----> 
+              <input type="text" name="FirstName" id="FirstName" formcontrolname="FirstName" minlength="2" prevent-emoji="" no-startendwhitespace="" class="input-content-wrap ng-untouched ng-pristine ng-invalid" placeholder="Name"> 
+              <!----> 
+             </div> 
+             <!----> 
+             <div class="ng-star-inserted"> 
+              <label class="ng-star-inserted">Surname <span class="red">*</span></label> 
+              <!----> 
+              <input type="text" name="LastName" formcontrolname="LastName" minlength="2" prevent-emoji="" no-startendwhitespace="" class="input-content-wrap ng-untouched ng-pristine ng-invalid" placeholder="Surname"> 
+              <!----> 
+             </div> 
+             <!----> 
+            </div> 
+            <!----> 
+            <div> 
+             <label class="ng-star-inserted">Date Of Birth <span class="red">*</span></label> 
+             <!----> 
+             <div class="reg-birthDay-col ng-star-inserted"> 
+              <div> 
+               <select name="BirthDay" formcontrolname="BirthDay" class="input-content-wrap ng-untouched ng-pristine ng-invalid"><option value="">Day</option><option value="1" class="ng-star-inserted">1</option><option value="2" class="ng-star-inserted">2</option><option value="3" class="ng-star-inserted">3</option><option value="4" class="ng-star-inserted">4</option><option value="5" class="ng-star-inserted">5</option><option value="6" class="ng-star-inserted">6</option><option value="7" class="ng-star-inserted">7</option><option value="8" class="ng-star-inserted">8</option><option value="9" class="ng-star-inserted">9</option><option value="10" class="ng-star-inserted">10</option><option value="11" class="ng-star-inserted">11</option><option value="12" class="ng-star-inserted">12</option><option value="13" class="ng-star-inserted">13</option><option value="14" class="ng-star-inserted">14</option><option value="15" class="ng-star-inserted">15</option><option value="16" class="ng-star-inserted">16</option><option value="17" class="ng-star-inserted">17</option><option value="18" class="ng-star-inserted">18</option><option value="19" class="ng-star-inserted">19</option><option value="20" class="ng-star-inserted">20</option><option value="21" class="ng-star-inserted">21</option><option value="22" class="ng-star-inserted">22</option><option value="23" class="ng-star-inserted">23</option><option value="24" class="ng-star-inserted">24</option><option value="25" class="ng-star-inserted">25</option><option value="26" class="ng-star-inserted">26</option><option value="27" class="ng-star-inserted">27</option><option value="28" class="ng-star-inserted">28</option><option value="29" class="ng-star-inserted">29</option><option value="30" class="ng-star-inserted">30</option><option value="31" class="ng-star-inserted">31</option> 
+                <!----></select> 
+              </div> 
+              <div> 
+               <select formcontrolname="BirthMonth" name="BirthMonth" class="input-content-wrap ng-untouched ng-pristine ng-invalid"><option value="">Month</option><option value="1" class="ng-star-inserted">Jan</option><option value="2" class="ng-star-inserted">Feb</option><option value="3" class="ng-star-inserted">Mar</option><option value="4" class="ng-star-inserted">Apr</option><option value="5" class="ng-star-inserted">May</option><option value="6" class="ng-star-inserted">Jun</option><option value="7" class="ng-star-inserted">Jul</option><option value="8" class="ng-star-inserted">Aug</option><option value="9" class="ng-star-inserted">Sep</option><option value="10" class="ng-star-inserted">Oct</option><option value="11" class="ng-star-inserted">Nov</option><option value="12" class="ng-star-inserted">Dec</option> 
+                <!----></select> 
+              </div> 
+              <div> 
+               <select name="BirthYear" formcontrolname="BirthYear" class="input-content-wrap ng-untouched ng-pristine ng-invalid"><option value="">Year</option><option value="2007" class="ng-star-inserted">2007</option><option value="2006" class="ng-star-inserted">2006</option><option value="2005" class="ng-star-inserted">2005</option><option value="2004" class="ng-star-inserted">2004</option><option value="2003" class="ng-star-inserted">2003</option><option value="2002" class="ng-star-inserted">2002</option><option value="2001" class="ng-star-inserted">2001</option><option value="2000" class="ng-star-inserted">2000</option><option value="1999" class="ng-star-inserted">1999</option><option value="1998" class="ng-star-inserted">1998</option><option value="1997" class="ng-star-inserted">1997</option><option value="1996" class="ng-star-inserted">1996</option><option value="1995" class="ng-star-inserted">1995</option><option value="1994" class="ng-star-inserted">1994</option><option value="1993" class="ng-star-inserted">1993</option><option value="1992" class="ng-star-inserted">1992</option><option value="1991" class="ng-star-inserted">1991</option><option value="1990" class="ng-star-inserted">1990</option><option value="1989" class="ng-star-inserted">1989</option><option value="1988" class="ng-star-inserted">1988</option><option value="1987" class="ng-star-inserted">1987</option><option value="1986" class="ng-star-inserted">1986</option><option value="1985" class="ng-star-inserted">1985</option><option value="1984" class="ng-star-inserted">1984</option><option value="1983" class="ng-star-inserted">1983</option><option value="1982" class="ng-star-inserted">1982</option><option value="1981" class="ng-star-inserted">1981</option><option value="1980" class="ng-star-inserted">1980</option><option value="1979" class="ng-star-inserted">1979</option><option value="1978" class="ng-star-inserted">1978</option><option value="1977" class="ng-star-inserted">1977</option><option value="1976" class="ng-star-inserted">1976</option><option value="1975" class="ng-star-inserted">1975</option><option value="1974" class="ng-star-inserted">1974</option><option value="1973" class="ng-star-inserted">1973</option><option value="1972" class="ng-star-inserted">1972</option><option value="1971" class="ng-star-inserted">1971</option><option value="1970" class="ng-star-inserted">1970</option><option value="1969" class="ng-star-inserted">1969</option><option value="1968" class="ng-star-inserted">1968</option><option value="1967" class="ng-star-inserted">1967</option><option value="1966" class="ng-star-inserted">1966</option><option value="1965" class="ng-star-inserted">1965</option><option value="1964" class="ng-star-inserted">1964</option><option value="1963" class="ng-star-inserted">1963</option><option value="1962" class="ng-star-inserted">1962</option><option value="1961" class="ng-star-inserted">1961</option><option value="1960" class="ng-star-inserted">1960</option><option value="1959" class="ng-star-inserted">1959</option><option value="1958" class="ng-star-inserted">1958</option><option value="1957" class="ng-star-inserted">1957</option><option value="1956" class="ng-star-inserted">1956</option><option value="1955" class="ng-star-inserted">1955</option><option value="1954" class="ng-star-inserted">1954</option><option value="1953" class="ng-star-inserted">1953</option><option value="1952" class="ng-star-inserted">1952</option><option value="1951" class="ng-star-inserted">1951</option><option value="1950" class="ng-star-inserted">1950</option><option value="1949" class="ng-star-inserted">1949</option><option value="1948" class="ng-star-inserted">1948</option><option value="1947" class="ng-star-inserted">1947</option><option value="1946" class="ng-star-inserted">1946</option><option value="1945" class="ng-star-inserted">1945</option><option value="1944" class="ng-star-inserted">1944</option><option value="1943" class="ng-star-inserted">1943</option><option value="1942" class="ng-star-inserted">1942</option><option value="1941" class="ng-star-inserted">1941</option><option value="1940" class="ng-star-inserted">1940</option><option value="1939" class="ng-star-inserted">1939</option><option value="1938" class="ng-star-inserted">1938</option><option value="1937" class="ng-star-inserted">1937</option><option value="1936" class="ng-star-inserted">1936</option><option value="1935" class="ng-star-inserted">1935</option><option value="1934" class="ng-star-inserted">1934</option><option value="1933" class="ng-star-inserted">1933</option><option value="1932" class="ng-star-inserted">1932</option><option value="1931" class="ng-star-inserted">1931</option><option value="1930" class="ng-star-inserted">1930</option><option value="1929" class="ng-star-inserted">1929</option><option value="1928" class="ng-star-inserted">1928</option><option value="1927" class="ng-star-inserted">1927</option><option value="1926" class="ng-star-inserted">1926</option><option value="1925" class="ng-star-inserted">1925</option><option value="1924" class="ng-star-inserted">1924</option><option value="1923" class="ng-star-inserted">1923</option><option value="1922" class="ng-star-inserted">1922</option><option value="1921" class="ng-star-inserted">1921</option><option value="1920" class="ng-star-inserted">1920</option><option value="1919" class="ng-star-inserted">1919</option><option value="1918" class="ng-star-inserted">1918</option><option value="1917" class="ng-star-inserted">1917</option><option value="1916" class="ng-star-inserted">1916</option><option value="1915" class="ng-star-inserted">1915</option><option value="1914" class="ng-star-inserted">1914</option><option value="1913" class="ng-star-inserted">1913</option><option value="1912" class="ng-star-inserted">1912</option><option value="1911" class="ng-star-inserted">1911</option><option value="1910" class="ng-star-inserted">1910</option><option value="1909" class="ng-star-inserted">1909</option><option value="1908" class="ng-star-inserted">1908</option><option value="1907" class="ng-star-inserted">1907</option><option value="1906" class="ng-star-inserted">1906</option><option value="1905" class="ng-star-inserted">1905</option><option value="1904" class="ng-star-inserted">1904</option><option value="1903" class="ng-star-inserted">1903</option><option value="1902" class="ng-star-inserted">1902</option><option value="1901" class="ng-star-inserted">1901</option> 
+                <!----></select> 
+              </div> 
+              <!----> 
+             </div> 
+             <!----> 
+            </div> 
+            <div class="reg-two-col ng-star-inserted"> 
+             <label class="ng-star-inserted">Country <span class="red">*</span></label> 
+             <!----> 
+             <div class="ng-star-inserted"> 
+              <select name="Country" formcontrolname="Country" class="input-content-wrap ng-untouched ng-pristine ng-valid"><option value="0: 1" class="ng-star-inserted">Afghanistan</option><option value="1: 2" class="ng-star-inserted">Albania</option><option value="2: 3" class="ng-star-inserted">Algeria</option><option value="3: 4" class="ng-star-inserted">American Samoa</option><option value="4: 5" class="ng-star-inserted">Andorra</option><option value="5: 6" class="ng-star-inserted">Angola</option><option value="6: 7" class="ng-star-inserted">Anguilla</option><option value="7: 8" class="ng-star-inserted">Antigua and Barbuda</option><option value="8: 9" class="ng-star-inserted">Argentina</option><option value="9: 10" class="ng-star-inserted">Armenia</option><option value="10: 11" class="ng-star-inserted">Aruba</option><option value="11: 12" class="ng-star-inserted">Australia</option><option value="12: 13" class="ng-star-inserted">Austria</option><option value="13: 14" class="ng-star-inserted">Azerbaijan</option><option value="14: 15" class="ng-star-inserted">Bahamas</option><option value="15: 16" class="ng-star-inserted">Bahrain</option><option value="16: 17" class="ng-star-inserted">Bangladesh</option><option value="17: 18" class="ng-star-inserted">Barbados</option><option value="18: 19" class="ng-star-inserted">Belarus</option><option value="19: 20" class="ng-star-inserted">Belgium</option><option value="20: 21" class="ng-star-inserted">Belize</option><option value="21: 22" class="ng-star-inserted">Benin</option><option value="22: 23" class="ng-star-inserted">Bermuda</option><option value="23: 24" class="ng-star-inserted">Bhutan</option><option value="24: 25" class="ng-star-inserted">Bolivia</option><option value="25: 26" class="ng-star-inserted">Bosnia and Herzegovina</option><option value="26: 27" class="ng-star-inserted">Botswana</option><option value="27: 28" class="ng-star-inserted">Brazil</option><option value="28: 29" class="ng-star-inserted">Brunei Darussalam</option><option value="29: 30" class="ng-star-inserted">Bulgaria</option><option value="30: 31" class="ng-star-inserted">Burkina Faso</option><option value="31: 32" class="ng-star-inserted">Burundi</option><option value="32: 33" class="ng-star-inserted">Cambodia</option><option value="33: 34" class="ng-star-inserted">Cameroon</option><option value="34: 35" class="ng-star-inserted">Canada</option><option value="35: 36" class="ng-star-inserted">Cape Verde</option><option value="36: 37" class="ng-star-inserted">Cayman Islands</option><option value="37: 38" class="ng-star-inserted">Central African Republic</option><option value="38: 39" class="ng-star-inserted">Chad</option><option value="39: 40" class="ng-star-inserted">Chile</option><option value="40: 41" class="ng-star-inserted">China</option><option value="41: 42" class="ng-star-inserted">Colombia</option><option value="42: 43" class="ng-star-inserted">Comoros</option><option value="43: 44" class="ng-star-inserted">Congo</option><option value="44: 45" class="ng-star-inserted">Cook Islands</option><option value="45: 46" class="ng-star-inserted">Costa Rica</option><option value="46: 47" class="ng-star-inserted">Cote D'Ivoire</option><option value="47: 48" class="ng-star-inserted">Croatia</option><option value="48: 49" class="ng-star-inserted">Cuba</option><option value="49: 50" class="ng-star-inserted">Cyprus</option><option value="50: 51" class="ng-star-inserted">Czech Republic</option><option value="51: 52" class="ng-star-inserted">Denmark</option><option value="52: 53" class="ng-star-inserted">Djibouti</option><option value="53: 54" class="ng-star-inserted">Dominica</option><option value="54: 55" class="ng-star-inserted">Dominican Republic</option><option value="55: 56" class="ng-star-inserted">Ecuador</option><option value="56: 57" class="ng-star-inserted">Egypt</option><option value="57: 58" class="ng-star-inserted">El Salvador</option><option value="58: 59" class="ng-star-inserted">Equatorial Guinea</option><option value="59: 60" class="ng-star-inserted">Eritrea</option><option value="60: 61" class="ng-star-inserted">Estonia</option><option value="61: 62" class="ng-star-inserted">Ethiopia</option><option value="62: 63" class="ng-star-inserted">Falkland Islands (Malvinas)</option><option value="63: 64" class="ng-star-inserted">Faroe Islands</option><option value="64: 65" class="ng-star-inserted">Fiji</option><option value="65: 66" class="ng-star-inserted">Finland</option><option value="66: 67" class="ng-star-inserted">France</option><option value="67: 68" class="ng-star-inserted">French Guiana</option><option value="68: 69" class="ng-star-inserted">French Polynesia</option><option value="69: 70" class="ng-star-inserted">Gabon</option><option value="70: 71" class="ng-star-inserted">Gambia</option><option value="71: 72" class="ng-star-inserted">Georgia</option><option value="72: 73" class="ng-star-inserted">Germany</option><option value="73: 74" class="ng-star-inserted">Ghana</option><option value="74: 75" class="ng-star-inserted">Gibraltar</option><option value="75: 76" class="ng-star-inserted">Greece</option><option value="76: 77" class="ng-star-inserted">Greenland</option><option value="77: 78" class="ng-star-inserted">Grenada</option><option value="78: 79" class="ng-star-inserted">Guadeloupe</option><option value="79: 80" class="ng-star-inserted">Guam</option><option value="80: 81" class="ng-star-inserted">Guatemala</option><option value="81: 82" class="ng-star-inserted">Guinea</option><option value="82: 83" class="ng-star-inserted">Guinea-Bissau</option><option value="83: 84" class="ng-star-inserted">Guyana</option><option value="84: 85" class="ng-star-inserted">Haiti</option><option value="85: 86" class="ng-star-inserted">Honduras</option><option value="86: 87" class="ng-star-inserted">Hong Kong</option><option value="87: 88" class="ng-star-inserted">Hungary</option><option value="88: 89" class="ng-star-inserted">Iceland</option><option value="89: 90" class="ng-star-inserted">India</option><option value="90: 91" class="ng-star-inserted">Indonesia</option><option value="91: 221" class="ng-star-inserted">Iran</option><option value="92: 92" class="ng-star-inserted">Iraq</option><option value="93: 93" class="ng-star-inserted">Ireland</option><option value="94: 94" class="ng-star-inserted">Israel</option><option value="95: 95" class="ng-star-inserted">Italy</option><option value="96: 96" class="ng-star-inserted">Jamaica</option><option value="97: 97" class="ng-star-inserted">Japan</option><option value="98: 98" class="ng-star-inserted">Jordan</option><option value="99: 99" class="ng-star-inserted">Kazakhstan</option><option value="100: 100" class="ng-star-inserted">Kenya</option><option value="101: 101" class="ng-star-inserted">Kiribati</option><option value="102: 102" class="ng-star-inserted">Korea</option><option value="103: 103" class="ng-star-inserted">Kuwait</option><option value="104: 104" class="ng-star-inserted">Kyrgyzstan</option><option value="105: 105" class="ng-star-inserted">Latvia</option><option value="106: 106" class="ng-star-inserted">Lebanon</option><option value="107: 107" class="ng-star-inserted">Lesotho</option><option value="108: 108" class="ng-star-inserted">Liberia</option><option value="109: 109" class="ng-star-inserted">Libyan Arab Jamahiriya</option><option value="110: 110" class="ng-star-inserted">Liechtenstein</option><option value="111: 111" class="ng-star-inserted">Lithuania</option><option value="112: 112" class="ng-star-inserted">Luxembourg</option><option value="113: 113" class="ng-star-inserted">Macao</option><option value="114: 114" class="ng-star-inserted">Madagascar</option><option value="115: 115" class="ng-star-inserted">Malawi</option><option value="116: 116" class="ng-star-inserted">Malaysia</option><option value="117: 117" class="ng-star-inserted">Maldives</option><option value="118: 118" class="ng-star-inserted">Mali</option><option value="119: 119" class="ng-star-inserted">Malta</option><option value="120: 120" class="ng-star-inserted">Marshall Islands</option><option value="121: 121" class="ng-star-inserted">Martinique</option><option value="122: 122" class="ng-star-inserted">Mauritania</option><option value="123: 123" class="ng-star-inserted">Mauritius</option><option value="124: 124" class="ng-star-inserted">Mexico</option><option value="125: 125" class="ng-star-inserted">Micronesia, Federated States of</option><option value="126: 126" class="ng-star-inserted">Moldova, Republic of</option><option value="127: 127" class="ng-star-inserted">Monaco</option><option value="128: 128" class="ng-star-inserted">Mongolia</option><option value="129: 129" class="ng-star-inserted">Montserrat</option><option value="130: 130" class="ng-star-inserted">Morocco</option><option value="131: 131" class="ng-star-inserted">Mozambique</option><option value="132: 132" class="ng-star-inserted">Myanmar</option><option value="133: 133" class="ng-star-inserted">Namibia</option><option value="134: 134" class="ng-star-inserted">Nauru</option><option value="135: 135" class="ng-star-inserted">Nepal</option><option value="136: 136" class="ng-star-inserted">Netherlands</option><option value="137: 137" class="ng-star-inserted">Netherlands Antilles</option><option value="138: 138" class="ng-star-inserted">New Caledonia</option><option value="139: 139" class="ng-star-inserted">New Zealand</option><option value="140: 140" class="ng-star-inserted">Nicaragua</option><option value="141: 141" class="ng-star-inserted">Niger</option><option value="142: 142" class="ng-star-inserted">Nigeria</option><option value="143: 143" class="ng-star-inserted">Niue</option><option value="144: 144" class="ng-star-inserted">Norfolk Island</option><option value="145: 145" class="ng-star-inserted">Northern Mariana Islands</option><option value="146: 146" class="ng-star-inserted">Norway</option><option value="147: 147" class="ng-star-inserted">Oman</option><option value="148: 222" class="ng-star-inserted">Other</option><option value="149: 148" class="ng-star-inserted">Pakistan</option><option value="150: 149" class="ng-star-inserted">Palau</option><option value="151: 150" class="ng-star-inserted">Panama</option><option value="152: 151" class="ng-star-inserted">Papua New Guinea</option><option value="153: 152" class="ng-star-inserted">Paraguay</option><option value="154: 153" class="ng-star-inserted">Peru</option><option value="155: 154" class="ng-star-inserted">Philippines</option><option value="156: 155" class="ng-star-inserted">Pitcairn</option><option value="157: 156" class="ng-star-inserted">Poland</option><option value="158: 157" class="ng-star-inserted">Portugal</option><option value="159: 158" class="ng-star-inserted">Puerto Rico</option><option value="160: 159" class="ng-star-inserted">Qatar</option><option value="161: 160" class="ng-star-inserted">Reunion</option><option value="162: 161" class="ng-star-inserted">Romania</option><option value="163: 162" class="ng-star-inserted">Russian Federation</option><option value="164: 163" class="ng-star-inserted">Rwanda</option><option value="165: 164" class="ng-star-inserted">Saint Helena</option><option value="166: 165" class="ng-star-inserted">Saint Kitts and Nevis</option><option value="167: 166" class="ng-star-inserted">Saint Lucia</option><option value="168: 167" class="ng-star-inserted">Saint Pierre and Miquelon</option><option value="169: 168" class="ng-star-inserted">Saint Vincent and the Grenadines</option><option value="170: 169" class="ng-star-inserted">Samoa</option><option value="171: 170" class="ng-star-inserted">San Marino</option><option value="172: 171" class="ng-star-inserted">Sao Tome and Principe</option><option value="173: 172" class="ng-star-inserted">Saudi Arabia</option><option value="174: 173" class="ng-star-inserted">Senegal</option><option value="175: 174" class="ng-star-inserted">Seychelles</option><option value="176: 175" class="ng-star-inserted">Sierra Leone</option><option value="177: 176" class="ng-star-inserted">Singapore</option><option value="178: 177" class="ng-star-inserted">Slovakia</option><option value="179: 178" class="ng-star-inserted">Slovenia</option><option value="180: 179" class="ng-star-inserted">Solomon Islands</option><option value="181: 180" class="ng-star-inserted">Somalia</option><option value="182: 181" class="ng-star-inserted">South Africa</option><option value="183: 182" class="ng-star-inserted">Spain</option><option value="184: 183" class="ng-star-inserted">Sri Lanka</option><option value="185: 184" class="ng-star-inserted">Sudan</option><option value="186: 185" class="ng-star-inserted">Suriname</option><option value="187: 186" class="ng-star-inserted">Svalbard and Jan Mayen</option><option value="188: 187" class="ng-star-inserted">Swaziland</option><option value="189: 188" class="ng-star-inserted">Sweden</option><option value="190: 189" class="ng-star-inserted">Switzerland</option><option value="191: 190" class="ng-star-inserted">Syrian Arab Republic</option><option value="192: 191" class="ng-star-inserted">Taiwan, Province of China</option><option value="193: 192" class="ng-star-inserted">Tajikistan</option><option value="194: 193" class="ng-star-inserted">Tanzania, United Republic of</option><option value="195: 194" class="ng-star-inserted">Thailand</option><option value="196: 195" class="ng-star-inserted">Togo</option><option value="197: 196" class="ng-star-inserted">Tokelau</option><option value="198: 197" class="ng-star-inserted">Tonga</option><option value="199: 198" class="ng-star-inserted">Trinidad and Tobago</option><option value="200: 199" class="ng-star-inserted">Tunisia</option><option value="201: 200" class="ng-star-inserted">Turkey</option><option value="202: 201" class="ng-star-inserted">Turkmenistan</option><option value="203: 202" class="ng-star-inserted">Turks and Caicos Islands</option><option value="204: 203" class="ng-star-inserted">Tuvalu</option><option value="205: 204" class="ng-star-inserted">Uganda</option><option value="206: 205" class="ng-star-inserted">Ukraine</option><option value="207: 206" class="ng-star-inserted">United Arab Emirates</option><option value="208: 207" class="ng-star-inserted">United Kingdom</option><option value="209: 208" class="ng-star-inserted">United States</option><option value="210: 209" class="ng-star-inserted">Uruguay</option><option value="211: 210" class="ng-star-inserted">Uzbekistan</option><option value="212: 211" class="ng-star-inserted">Vanuatu</option><option value="213: 212" class="ng-star-inserted">Venezuela</option><option value="214: 213" class="ng-star-inserted">Viet Nam</option><option value="215: 214" class="ng-star-inserted">Virgin Islands, British</option><option value="216: 215" class="ng-star-inserted">Virgin Islands, U.s.</option><option value="217: 216" class="ng-star-inserted">Wallis and Futuna</option><option value="218: 217" class="ng-star-inserted">Western Sahara</option><option value="219: 218" class="ng-star-inserted">Yemen</option><option value="220: 219" class="ng-star-inserted">Zambia</option><option value="221: 220" class="ng-star-inserted">Zimbabwe</option> 
+               <!----></select> 
+             </div> 
+             <!----> 
+             <div class="ng-star-inserted"> 
+              <label class="ng-star-inserted">Currency <span class="red">*</span></label> 
+              <!----> 
+              <select name="Currency" formcontrolname="Currency" class="inputselect input-content-wrap ng-untouched ng-pristine ng-invalid"><option value="">- Select -</option><option value="1: 14" class="ng-star-inserted">TND</option><option value="2: 62" class="ng-star-inserted">EGP</option><option value="3: 3" class="ng-star-inserted">USD</option><option value="4: 2" class="ng-star-inserted">EUR</option><option value="5: 32" class="ng-star-inserted">MXN</option><option value="6: 26" class="ng-star-inserted">BRL</option><option value="7: 71" class="ng-star-inserted">KES</option> 
+               <!----></select> 
+             </div> 
+             <!----> 
+            </div> 
+            <!----> 
+            <!----> 
+            <!----> 
+            <!----> 
+            <div class="ng-star-inserted"> 
+             <label class="ng-star-inserted">CIN ID 
+              <!----></label> 
+             <!----> 
+             <input type="text" min="0" name="CINID" formcontrolname="CINID" maxlength="8" no-whitespace="" class="input-content-wrap ng-untouched ng-pristine ng-valid" placeholder="CIN ID"> 
+             <!----> 
+             <!----> 
+            </div> 
+            <!----> 
+            <!----> 
+            <div class="ng-star-inserted"> 
+             <label class="ng-star-inserted">Email <span class="red">*</span></label> 
+             <!----> 
+             <input type="Email" name="Email" formcontrolname="Email" pattern="^(([^<>()\[\]\\.,;:\s@&quot;]+(\.[^<>()\[\]\\.,;:\s@&quot;]+)*)|(&quot;.+&quot;))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$" class="input-content-wrap ng-untouched ng-pristine ng-invalid" placeholder="Email"> 
+             <!----> 
+             <!----> 
+            </div> 
+            <!----> 
+            <div> 
+             <label class="ng-star-inserted">Phone Number <span class="red">*</span></label> 
+             <!----> 
+             <div class="input-content-wrap phone-number-with-country ng-star-inserted"> 
+              <div class="country-code ng-star-inserted"> 
+               <i class="flag ng-star-inserted flag-tn"></i> 
+               <!----> 
+               <span>+216</span> 
+               <span><i class="far fa-angle-down"></i></span> 
+              </div> 
+              <!----> 
+              <!----> 
+              <input type="text" name="PhoneNo" formcontrolname="PhoneNo" minlength="4" maxlength="15" required class="phone-field ng-untouched ng-pristine ng-invalid"> 
+              <!----> 
+             </div> 
+             <!----> 
+            </div> 
+           </div> 
+           <div class="column2"> 
+            <div> 
+             <label class="ng-star-inserted">User Name <span class="red">*</span></label> 
+             <!----> 
+             <input type="text" name="UserName" formcontrolname="UserName" maxlength="50" minlength="2" required autocomplete="off" pattern="^[a-zA-Z0-9_.]*$" no-whitespace="" class="input-content-wrap ng-untouched ng-pristine ng-invalid" placeholder="User Name"> 
+             <!----> 
+             <!----> 
+             <!----> 
+            </div> 
+            <div> 
+             <label class="ng-star-inserted">Password <span class="red">*</span></label> 
+             <!----> 
+             <input type="password" name="Password" formcontrolname="Password" maxlength="50" required autocomplete="off" no-whitespace="" class="input-content-wrap ng-untouched ng-pristine ng-invalid" placeholder="Password"> 
+             <div> 
+              <!----> 
+              <!----> 
+             </div> 
+            </div> 
+            <div> 
+             <label class="ng-star-inserted">Password Again <span class="red">*</span></label> 
+             <!----> 
+             <input type="password" name="ConfirmPassword" formcontrolname="ConfirmPassword" maxlength="50" required no-whitespace="" class="input-content-wrap ng-untouched ng-pristine ng-invalid" placeholder="Password Again"> 
+             <!----> 
+            </div> 
+            <!----> 
+            <div class="mt-auto ng-star-inserted"> 
+             <label class="ng-star-inserted">Affiliate Referral Code</label> 
+             <!----> 
+             <input name="ReferralCode" formcontrolname="ReferralCode" placeholder="Affiliate Referral Code" class="ng-untouched ng-pristine ng-valid"> 
+            </div> 
+            <!----> 
+            <!----> 
+           </div> 
+          </div> 
+          <div class="register-checkbox mb-20"> 
+           <div class="register-check ng-star-inserted"> 
+            <!----> 
+            <!----> 
+            <div class="checkbox ng-star-inserted"> 
+             <input type="checkbox" id="chkConditions" name="AcceptCondition" formcontrolname="AcceptCondition" class="checkbox-custom ng-untouched ng-pristine ng-valid"> 
+             <label for="chkConditions" class="checkbox-custom-label" style="color: var(--theme-text-color);">I'm over 18 years of age. I have read and agree to the terms of use. I want to receive information about campaigns. You can always close your account BetClic24 Conditions of this service.</label> 
+            </div> 
+            <!----> 
+           </div> 
+           <!----> 
+          </div> 
+          <div class="text-right register-loader-right-dir"> 
+           <button pripple="" type="submit" class="p-ripple p-element btn btn-primary" disabled><span class="align-middle">Register</span> 
+            <!----><span class="p-ink"></span></button> 
+          </div> 
+         </form> 
+        </div> 
+       </div> 
+       <!----> 
+       <!----> 
+      </register> 
+     </div> 
+    </div> 
+   </div> 
+  </modal-dialog> 
+  <modal-dialog class="auth-modal ng-tns-c95-1" id="78486716.3734808"> 
+   <div role="dialog" class="modal fade"> 
+    <div class="modal-dialog" style="width: auto;"> 
+     <div style="width: auto;"> 
+      <smsotpmodel> 
+       <div class="modal-content auth"> 
+        <div class="modal-body"> 
+         <div class="auth-header-part ng-star-inserted"> 
+          <div class="auth-header-left"> 
+           <a href="#/" routerlink="/"><span class="logo-img"></span></a> 
+          </div> 
+          <div class="auth-header-right"> 
+           <!----> 
+          </div> 
+         </div> 
+         <!----> 
+         <a href="javascript://" class="close-modal" style="top: 15px;"></a> 
+         <form novalidate class="ng-untouched ng-pristine ng-invalid"> 
+          <div class="modal-subheader ng-star-inserted"> 
+           <i class="icon_cup"></i> 
+          </div> 
+          <!----> 
+          <div class="login-content"> 
+           <!----> 
+           <p>One Time Password (OTP) has been sent successfully, Please check the code in your WhatsApp or your SMS box and enter the same here to verify.</p> 
+           <div class="authentication sms-authentication"> 
+            <label>Enter Your OTP*</label> 
+            <div class="authentication-textbox"> 
+             <input type="text" required formcontrolname="smscode" minlength="4" maxlength="8" autocomplete="off" tabindex="1" class="ng-untouched ng-pristine ng-invalid"> 
+            </div> 
+           </div> 
+           <div class="text-right mt-30 smscode-btn"> 
+            <button pripple="" type="submit" class="p-ripple p-element btn btn-primary" tabindex="2" disabled><span class="align-middle"> Validate OTP</span> 
+             <!----><span class="p-ink"></span></button> &nbsp; 
+            <button pripple="" type="button" class="p-ripple p-element btn btn-secondary" tabindex="3" disabled><span class="align-middle"> Resend OTP</span> 
+             <!----> 
+             <!----><span class="p-ink"></span></button> 
+           </div> 
+           <!----> 
+           <!----> 
+          </div> 
+         </form> 
+         <div class="clear"></div> 
+        </div> 
+       </div> 
+      </smsotpmodel> 
+     </div> 
+    </div> 
+   </div> 
+  </modal-dialog> 
+  <modal-dialog class="ng-tns-c95-1 ng-star-inserted" id="81513478.61606394"> 
+   <div role="dialog" class="modal fade"> 
+    <div class="modal-dialog" style="width: auto;"> 
+     <div style="width: auto;"> 
+      <login> 
+       <!----> 
+      </login> 
+     </div> 
+    </div> 
+   </div> 
+  </modal-dialog> 
+  <modal-dialog class="auth-modal" id="95044385.41223714"> 
+   <div role="dialog" class="modal fade"> 
+    <div class="modal-dialog" style="width: auto;"> 
+     <div style="width: auto; height: 574px;"> 
+      <!----> 
+     </div> 
+    </div> 
+   </div> 
+  </modal-dialog> 
+  <modal-dialog class="mobverifypopup-modal" id="86400496.9050438"> 
+   <div role="dialog" class="modal fade"> 
+    <div class="modal-dialog" style="width: auto;"> 
+     <div style="width: auto;"> 
+      <div class="modal-content"> 
+       <div class="modal-header"> 
+        <h3>Verify Your Email</h3> 
+       </div> 
+       <div class="modal-body"> 
+        <a href="javascript://" class="close-modal" style="top: 15px;"></a> 
+        <div class="main-veifywrap p-feild"> 
+         <label class="userinfo-heading"></label> 
+         <div class="main-phonewithcountry-btn"> 
+          <div class="common-rightfeild"> 
+           <input type="email" name="email" required class="form-control ng-untouched ng-pristine ng-invalid" placeholder="Enter Email" tabindex="1"> 
+           <span class="text-danger email" hidden>The Email address entered does not valid, Please enter valid Email Address</span> 
+          </div> 
+          <div class="btnfooter-main"> 
+           <a pripple="" href="javascript://" class="p-ripple p-element btn btn-primary modal-btn disable"><span class="align-middle">Resend Email</span> 
+            <!----><span class="p-ink"></span></a> 
+          </div> 
+          <!----> 
+         </div> 
+        </div> 
+       </div> 
+      </div> 
+     </div> 
+    </div> 
+   </div> 
+  </modal-dialog> 
+  <modal-dialog class="mobverifypopup-modal" id="90958664.13073897"> 
+   <div role="dialog" class="modal fade"> 
+    <div class="modal-dialog" style="width: auto;"> 
+     <div style="width: auto;"> 
+      <div class="modal-content"> 
+       <div class="modal-header"> 
+        <h3>Enter Your Mobile No</h3> 
+       </div> 
+       <div class="modal-body"> 
+        <a href="javascript://" class="close-modal" style="top: 6px;"></a> 
+        <div class="main-veifywrap p-feild"> 
+         <label class="userinfo-heading"></label> 
+         <div class="main-phonewithcountry-btn"> 
+          <div class="phone-number-with-country-code"> 
+           <div class="country-code"> 
+            <p-dropdown optionlabel="Country_Code" class="p-element p-inputwrapper p-inputwrapper-filled ng-untouched ng-valid ng-dirty"> 
+             <div class="p-dropdown p-component"> 
+              <div class="p-hidden-accessible"> 
+               <input type="text" readonly aria-haspopup="listbox" pautofocus="" role="combobox" class="p-element" aria-expanded="false" tabindex="2"> 
+              </div> 
+              <span class="p-element p-dropdown-label p-inputtext ng-star-inserted" id="pr_id_3_label"> 
+               <!----><i class="flag flag-af ng-star-inserted"></i> 
+               <!----><span class="ng-star-inserted">+93</span> 
+               <!----></span> 
+              <!----> 
+              <!----> 
+              <!----> 
+              <!----> 
+              <div role="button" aria-label="dropdown trigger" aria-haspopup="listbox" class="p-dropdown-trigger"> 
+               <span class="p-dropdown-trigger-icon pi pi-chevron-down"></span> 
+              </div> 
+              <p-overlay class="p-element ng-tns-c46-4 ng-star-inserted"> 
+               <!----> 
+              </p-overlay> 
+             </div> 
+            </p-dropdown> 
+           </div> 
+           <input type="text" autocomplete="off" name="gsmno" tabindex="3" minlength="4" maxlength="15" class="form-control ng-untouched ng-pristine ng-valid"> 
+          </div> 
+          <div class="btnfooter-main"> 
+           <a pripple="" href="javascript://" class="p-ripple p-element btn btn-primary modal-btn disable"><span class="align-middle"> Send SMS Code</span> 
+            <!----><span class="p-ink"></span></a> 
+          </div> 
+          <!----> 
+         </div> 
+        </div> 
+        <div class="clear"></div> 
+       </div> 
+      </div> 
+     </div> 
+    </div> 
+   </div> 
+  </modal-dialog> 
+  <modal-dialog class="remove-odd ng-tns-c95-1 ng-star-inserted" id="25019293.556664724"> 
+   <div role="dialog" class="modal fade"> 
+    <div class="modal-dialog" style="width: auto;"> 
+     <div style="width: auto;"> 
+      <div class="modal-content" style="width: 600px;"> 
+       <div class="modal-body ng-tns-c95-1"> 
+        <h4 class="ng-tns-c95-1">Are you sure you want to download application?</h4> 
+        <p class="mt-20 ng-tns-c95-1"><button pripple="" class="p-ripple p-element btn btn-primary ng-tns-c95-1" title="Yes"> Yes <span class="p-ink"></span></button> &nbsp;&nbsp; <button pripple="" class="p-ripple p-element btn btn-secondary ng-tns-c95-1" title="No"> No <span class="p-ink"></span></button></p> 
+       </div> 
+      </div> 
+     </div> 
+    </div> 
+   </div> 
+  </modal-dialog> 
+  <!-- Start of LiveChat (www.livechat.com) code --> 
+  <script>
+    window.__lc = window.__lc || {};
+    window.__lc.license = 19040623;
+    window.__lc.integration_name = "manual_channels";
+    window.__lc.product_name = "livechat";
+    ;(function(n,t,c){function i(n){return e._h?e._h.apply(null,n):e._q.push(n)}var e={_q:[],_h:null,_v:"2.0",on:function(){i(["on",c.call(arguments)])},once:function(){i(["once",c.call(arguments)])},off:function(){i(["off",c.call(arguments)])},get:function(){if(!e._h)throw new Error("[LiveChatWidget] You can't use getters before load.");return i(["get",c.call(arguments)])},call:function(){i(["call",c.call(arguments)])},init:function(){var n=t.createElement("script");n.async=!0,n.type="text/javascript",n.src="https://cdn.livechatinc.com/tracking.js",t.head.appendChild(n)}};!n.__lc.asyncInit&&e.init(),n.LiveChatWidget=n.LiveChatWidget||e}(window,document,[].slice))
+</script> 
+  <noscript> 
+   <a href="https://www.livechat.com/chat-with/19040623/" rel="nofollow">Chat with us</a>, powered by 
+   <a href="https://www.livechat.com/?welcome" rel="noopener nofollow" target="_blank">LiveChat</a> 
+  </noscript> 
+  <!-- End of LiveChat code --> 
+  <modal-dialog class="modal-bonus auth-modal ng-star-inserted" id="3577345.4392816206"> 
+   <div role="dialog" class="modal fade"> 
+    <div class="modal-dialog" style="width: auto;"> 
+     <div style="width: auto;"> 
+      <div class="modal-content"> 
+       <div class="modal-header"> 
+        <h3>Choose Bonus</h3> 
+       </div> 
+       <div class="modal-body" style="max-height: 494px;"> 
+        <!----> 
+        <div class="action-btn bonus-select-btn"> 
+         <a href="javascript://" pripple="" class="p-ripple p-element btn btn-secondary">Don't want bonus<span class="p-ink"></span></a> 
+         <a href="javascript://" pripple="" class="p-ripple p-element btn btn-primary" disabled="true">lblGetBonus<span class="p-ink"></span></a> 
+        </div> 
+       </div> 
+      </div> 
+     </div> 
+    </div> 
+   </div> 
+  </modal-dialog> 
+  <div id="chat-widget-container" style="opacity: 0; visibility: hidden; z-index: -1; position: fixed; bottom: 0px; width: 100%; height: 50%; max-width: 100%; max-height: calc(100% + 0px); min-height: 0px; min-width: 0px; background-color: transparent; border: 0px; overflow: hidden; right: 0px; transition: none !important;"> 
+   <iframe allow="clipboard-read; clipboard-write; autoplay; display-capture *;" src="https://secure.livechatinc.com/customer/action/open_chat?license_id=19040623&amp;group=0&amp;embedded=1&amp;widget_version=3&amp;unique_groups=0&amp;organization_id=5e6e0b40-e5ca-430d-a368-c75a483906d8&amp;use_parent_storage=1&amp;x-region=us-south1" id="chat-widget" name="chat-widget" title="LiveChat chat widget" scrolling="no" style="width: 100%; height: 100%; min-height: 0px; min-width: 0px; margin: 0px; padding: 0px; background-image: none; background-position: 0% 0%; background-size: initial; background-attachment: scroll; background-origin: initial; background-clip: initial; background-color: rgba(0, 0, 0, 0); border-width: 0px; float: none; color-scheme: normal; position: absolute; inset: 0px; transition: none !important; display: none; visibility: hidden;"></iframe> 
+   <iframe id="chat-widget-minimized" name="chat-widget-minimized" title="LiveChat chat widget" scrolling="no" style="width: 100%; height: 100%; min-height: 0px; min-width: 0px; margin: 0px; padding: 0px; background-image: none; background-position: 0% 0%; background-size: initial; background-attachment: scroll; background-origin: initial; background-clip: initial; background-color: rgba(0, 0, 0, 0); border-width: 0px; float: none; color-scheme: normal; display: block;"></iframe> 
+   <div aria-live="polite" id="lc-aria-announcer-polite" tabindex="-1" style="height: 1px; width: 1px; margin: -1px; overflow: hidden; white-space: nowrap; border: 0px; padding: 0px; position: absolute;"></div> 
+   <div aria-live="assertive" id="lc-aria-announcer-assertive" tabindex="-1" style="height: 1px; width: 1px; margin: -1px; overflow: hidden; white-space: nowrap; border: 0px; padding: 0px; position: absolute;"></div> 
+  </div> 
+  <div id="chat-widget-container" style="opacity: 1; visibility: visible; z-index: 2147483639; position: fixed; bottom: 0px; width: 302px; height: 457px; max-width: 100%; max-height: 100%; min-height: 0px; min-width: 0px; background-color: transparent; border: 0px; overflow: hidden; right: 0px; transition: none !important;"> 
+   <iframe allow="clipboard-read; clipboard-write; autoplay; display-capture *;" src="https://secure.livechatinc.com/customer/action/open_chat?license_id=19040623&amp;group=0&amp;embedded=1&amp;widget_version=3&amp;unique_groups=0&amp;organization_id=5e6e0b40-e5ca-430d-a368-c75a483906d8&amp;use_parent_storage=1&amp;x-region=us-south1" id="chat-widget" name="chat-widget" title="LiveChat chat widget" scrolling="no" style="width: 100%; height: 100%; min-height: 0px; min-width: 0px; margin: 0px; padding: 0px; background-image: none; background-position: 0% 0%; background-size: initial; background-attachment: scroll; background-origin: initial; background-clip: initial; background-color: rgba(0, 0, 0, 0); border-width: 0px; float: none; color-scheme: normal; position: absolute; inset: 0px; transition: none !important;"></iframe> 
+  </div> 
+  <div id="chat-widget-container" style="opacity: 0; visibility: hidden; z-index: -1; position: fixed; bottom: 0px; width: 100%; height: 100%; max-width: 100%; max-height: calc(100% + 0px); min-height: 0px; min-width: 0px; background-color: transparent; border: 0px; overflow: hidden; right: 0px;">
+   <iframe allow="clipboard-read; clipboard-write; autoplay; display-capture *;" src="https://secure.livechatinc.com/customer/action/open_chat?license_id=19040623&amp;group=0&amp;embedded=1&amp;widget_version=3&amp;unique_groups=0&amp;organization_id=5e6e0b40-e5ca-430d-a368-c75a483906d8&amp;use_parent_storage=1&amp;x-region=us-south1" id="chat-widget" name="chat-widget" title="LiveChat chat widget" scrolling="no" style="width: 100%; height: 100%; min-height: 0px; min-width: 0px; margin: 0px; padding: 0px; background-image: none; background-position: 0% 0%; background-size: initial; background-attachment: scroll; background-origin: initial; background-clip: initial; background-color: rgba(0, 0, 0, 0); border-width: 0px; float: none; color-scheme: normal; position: absolute; inset: 0px;"></iframe>
+  </div>
+ </body>
+</html>
